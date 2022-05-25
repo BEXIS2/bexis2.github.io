@@ -2,7 +2,7 @@ title: BEXIS2
 author:
   name: David Schöne
   email: david.schoene@uni-jena.de
-description: > 
+description: test
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -13,8 +13,8 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: zw1bb3l
-    github:  sventhiel
+    #twitter: zw1bb3l
+    #github:  sventhiel
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
