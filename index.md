@@ -2,7 +2,7 @@
 
 ## Features
 
-BEXIS 2 supports a broad range of data structures, data types and more. Take a look at all BEXIS 2 features.
+BEXIS 2 supports a broad range of data structures, data types and more. Take a look at all [BEXIS 2 features](./pages/features.md).
 
 ## Demo
 
