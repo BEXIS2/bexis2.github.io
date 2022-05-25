@@ -7,7 +7,7 @@ BEXIS 2 is a modular scalable platform suitable for working groups and collabora
 ## End User Features
 |||
 |--|--|
-| <img title="a title" src="./assets/../../assets/features/search-solid.svg" width="30"> Search Data |Find datasets by keyword (incl. autocomplete) or use facets, filtering, sorting to quickly retrieve the dataset you need. |
+| Search Data |Find datasets by keyword (incl. autocomplete) or use facets, filtering, sorting to quickly retrieve the dataset you need. |
  Upload Data | Upload your tabular data or any other type of data to BEXIS 2 and describe it with metadata. |
 Web API Access | Beside downloading a dataset from the portal, you may also retrieve data stored in BEXIS directly with a script or from your application (e.g. R) using API calls. |
 Dataset Permissions | Specify fine grained data permissions on who can view, access, or update your dataset
