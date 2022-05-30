@@ -60,11 +60,11 @@
 						<a sveltekit:prefetch href={base + '/index'} class="nav-link">Home</a>
 					</li>
 				</NavItem>
-				<NavItem>
-					<li class="nav-item" class:active={$page.url.pathname === base + '/project'}>
-						<a sveltekit:prefetch href={base + '/project'} class="nav-link">Project</a>
+				<!-- <NavItem>
+					<li class="nav-item" class:active={$page.url.pathname === base + '/features'}>
+						<a sveltekit:prefetch href={base + '/features'} class="nav-link">Features</a>
 					</li>
-				</NavItem>
+				</NavItem> -->
 			<!--	<NavItem>
 					<li class="nav-item" class:active={$page.url.pathname === base + '/'}>
 						<a sveltekit:prefetch href={base + '/'} class="nav-link">Home</a>
