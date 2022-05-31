@@ -1,0 +1,42 @@
+[
+ {
+  "title":"Search Data",
+  "description":"Find datasets by keyword (incl. autocomplete) or use facets, filtering, sorting to quickly retrieve the dataset you need.",
+  "icon":"search_FILL0_wght400_GRAD0_opsz48.svg"
+ },
+ {
+  "title":"Upload Data",
+  "description":"Upload your tabular data or any other type of data to BEXIS 2 and describe it with metadata.",
+  "icon":"file_upload_FILL0_wght400_GRAD0_opsz48.svg"
+ },
+ {
+  "title":"Web API Access",
+  "description":"Beside downloading a dataset from the portal, you may also retrieve data stored in BEXIS directly with a script or from your application (e.g. R) using API calls.",
+  "icon":"bookmarks_FILL0_wght400_GRAD0_opsz48.svg"
+ },
+ {
+  "title":"Dataset Permissions",
+  "description":"Specify fine grained data permissions on who can view, access, or update your dataset.",
+  "icon":"visibility_off_FILL0_wght400_GRAD0_opsz48.svg"
+ },
+ {
+  "title":"Re-use Data Structures",
+  "description":"Keep track of the evolution of your dataset (i.e. who did what and when) and return to any previous version if needed.",
+  "icon":"bookmarks_FILL0_wght400_GRAD0_opsz48.svg"
+ },
+ {
+  "title":"Dataset Versioning",
+  "description":"Keep track of the evolution of your dataset (i.e. who did what and when) and return to any previous version if needed.",
+  "icon":"bookmarks_FILL0_wght400_GRAD0_opsz48.svg"
+ },
+ {
+  "title":"Data Publication",
+  "description":"Publish your dataset with a renown data repository or data journal (e.g. GFBio, Biodiversity Data Journal) and make it a citeable data publication identified by a DOI.",
+  "icon":"bookmarks_FILL0_wght400_GRAD0_opsz48.svg"
+ },
+ {
+  "title":"Single Sign-on",
+  "description":"Use your existing credentials of your organisation to log on to BEXIS. No need to remember another username and password.",
+  "icon":"bookmarks_FILL0_wght400_GRAD0_opsz48.svg"
+ }
+]
