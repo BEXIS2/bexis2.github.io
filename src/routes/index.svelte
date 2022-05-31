@@ -2,7 +2,6 @@
 
 import { Container, Row, Col} from 'sveltestrap';
 import Card from '../components/card.svelte'
-import { faBars, faPlay, faDownload } from '@fortawesome/free-solid-svg-icons'
 </script>
 
 
