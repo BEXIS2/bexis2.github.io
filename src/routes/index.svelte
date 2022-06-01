@@ -18,7 +18,7 @@ import { base } from '$app/paths';
  <Row>
   <Col xs=4>
    <Card title="Feature">
-    BEXIS 2 supports a broad range of data structures, data types and more. Take a look at all <a href="{base+'/features'}">BEXIS 2 features</a>.
+    BEXIS 2 supports a broad range of data structures, data types and more. Take a look at all <a href="{base+'/software/features'}">BEXIS 2 features</a>.
    </Card>
   </Col>
   <Col xs=4>
