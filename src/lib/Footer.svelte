@@ -5,7 +5,8 @@
 <footer>
 	<div>
 		<hr />
-		<span>@2022 BEXIS2</span> <a href={base + '/imprint'}>Imprint</a>
+		 <span>@2022 BEXIS2</span> 
+			<!--<a href={'/imprint'}>Imprint</a> -->
 	</div>
 </footer>
 
