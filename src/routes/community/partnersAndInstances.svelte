@@ -6,7 +6,7 @@
  import partnersJson from '../../data/partners.json';
  import projectsJson from '../../data/projects.json';
 
- import ImageLinkList from 'src/components/ImageLinkList.svelte';
+ import ImageLinkList from 'src/components/imageLinkList.svelte';
 
 	</script>
 

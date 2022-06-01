@@ -1,6 +1,6 @@
 <script>
 
-import ImageLink from './ImageLink.svelte'
+import ImageLink from './imageLink.svelte'
 import {Row,Col} from 'sveltestrap'
 
 export let title
