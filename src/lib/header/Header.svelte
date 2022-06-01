@@ -33,7 +33,6 @@
 		DropdownMenu,
 		DropdownItem
 	} from 'sveltestrap/src';
-import Features from 'src/routes/software/features.svelte';
 
 	$: isOpen = null;
 
@@ -50,7 +49,7 @@ import Features from 'src/routes/software/features.svelte';
 	<Navbar
 	  class="fixed-top" expand="md" light>
 		<NavbarBrand href="/"
-			>	</NavbarBrand>
+			>	<img src="Logo_BEXIS_rgb_2600x830.png" alt="logo" width="200px"></NavbarBrand>
 		<NavbarToggler on:click={() => (isOpen = !isOpen)} />
 		<Collapse {isOpen} navbar expand="md" on:update={handleUpdate} >
 			<Nav class="" navbar>

@@ -19,7 +19,7 @@ export let icon="";
 <Card class="mb-3" >
  <CardHeader>
     <CardTitle>
-     {#if icon!=""}<img src="{"../../static/icons/"+icon}" alt="{icon}">{/if}
+     {#if icon!=""}<img src="{"/icons/"+icon}" alt="{icon}">{/if}
      {title}
     </CardTitle>
  </CardHeader>

@@ -12,7 +12,7 @@ import Card from '../components/card.svelte'
 <div class="content">
 <Container>
 
- <img src="../../static/images/Bexis_Home_Header.gif" alt="banner" width="100%"/>
+ <img src="/images/Bexis_Home_Header.gif" alt="banner" width="100%"/>
 
  <Row>
   <Col xs=4>
