@@ -50,7 +50,7 @@ import Features from 'src/routes/software/features.svelte';
 	<Navbar
 	  class="fixed-top" expand="md" light>
 		<NavbarBrand href="/"
-			>	<img src="../../static/logo.png" alt="logo" width="50px"></NavbarBrand>
+			>	</NavbarBrand>
 		<NavbarToggler on:click={() => (isOpen = !isOpen)} />
 		<Collapse {isOpen} navbar expand="md" on:update={handleUpdate} >
 			<Nav class="" navbar>
