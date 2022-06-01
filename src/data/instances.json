@@ -1,0 +1,52 @@
+[
+ {
+  "title":"iDiv",
+  "url":"https://www.idiv.de/",
+  "image":"Partner_Logo_iDiv.jpg"
+ },
+ {
+  "title":"Biodiversity Exploratories",
+  "url":"http://www.biodiversity-exploratories.de/",
+  "image":"Partner_Logo_BiodiversityE.jpg"
+ },
+ {
+  "title":"Aqua Diva",
+  "url":"https://www.aquadiva.uni-jena.de/",
+  "image":"Partner_Logo_AquaDiva.png"
+ },
+ {
+  "title":"Jena Experiment",
+  "url":"http://the-jena-experiment.de/",
+  "image":"Partner_Logo_JenaExperiment.gif"
+ },
+ {
+  "title":"ATTO – Amazon Tall Tower Observatory",
+  "url":"http://www.attoproject.org/",
+  "image":"Atto.png"
+ },
+ {
+  "title":"Wilde Mulde",
+  "url":"https://wilde-mulde.de/",
+  "image":"wilmu_logo.png"
+ },
+ {
+  "title":"Land Klif",
+  "url":"https://www.oekoklimatologie.wzw.tum.de/",
+  "image":"LandKliff.png"
+ },
+ {
+  "title":"EFForTS",
+  "url":"https://www.uni-goettingen.de/",
+  "image":"EFForTS.jpeg"
+ },
+ {
+  "title":"Rhizosphere",
+  "url":"https://www.ufz.de/spp-rhizosphere/",
+  "image":"spprhizosphere_Logo.png"
+ },
+ {
+  "title":"Kilimanjaro",
+  "url":"https://www.kilimanjaro.biozentrum.uni-wuerzburg.de/",
+  "image":"Kili-Logo-2.png"
+ }
+]

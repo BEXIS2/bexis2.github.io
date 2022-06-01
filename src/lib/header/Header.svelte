@@ -65,11 +65,18 @@
 					<DropdownMenu end>
 						<DropdownItem><a href={base + '/software/features'} >Features</a></DropdownItem>
 						<DropdownItem><a href='{base + '/software/releases'}' >Get Latest Version</a></DropdownItem>
-						<DropdownItem><a href='...' >Models Overview</a></DropdownItem>
+						<DropdownItem><a href='{base + '/software/modules'}' >Modules Overview</a></DropdownItem>
 						<DropdownItem divider />
 						<DropdownItem><a href='https://demo.bexis2.uni-jena.de/' target="_blank" >Live Demo</a></DropdownItem>
 						<DropdownItem><a href='https://github.com/BEXIS2' target="_blank" >Source Code</a></DropdownItem>
 					</DropdownMenu>
+				</Dropdown>
+
+				<Dropdown nav inNavbar>
+					<DropdownToggle nav caret>Community</DropdownToggle>
+					<DropdownMenu end>
+						<DropdownItem><a href={base + '/community/partnersAndInstances'} >Partners & Instances</a></DropdownItem>
+						</DropdownMenu>
 				</Dropdown>
 
 				<NavItem>

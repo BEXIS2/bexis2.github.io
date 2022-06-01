@@ -18,7 +18,7 @@
 
 <script>
 import { Row,Col, ListGroup, ListGroupItem } from 'sveltestrap';
-import Release from 'src/components/release.svelte';
+import Release from 'src/components/Release.svelte';
 
 export let bexis2releases="";
 
