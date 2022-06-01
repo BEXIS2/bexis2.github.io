@@ -10,8 +10,7 @@ import { base } from '$app/paths';
 	<title>Home</title>
 </svelte:head>
 
-<div class="content">
-<Container>
+
 
  <img src="{base +'/images/Bexis_Home_Header.gif'}" alt="banner" width="100%"/>
 
@@ -32,18 +31,13 @@ import { base } from '$app/paths';
    </Card>
   </Col>
  </Row>
- 
 
-</Container>
-</div>
 
 <style>
 
 img{
  margin-bottom: 20px;
 }
-a{
- font-weight: bold;
-}
+
 
 </style>

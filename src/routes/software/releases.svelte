@@ -39,10 +39,6 @@ function onClickHandler(e)
 	<title>Releases</title>
 </svelte:head>
 
-<div class="content">
-
-<h2>Releases</h2>
-
 {#await bexis2releases}
 	<p>...waiting</p>
 {:then releases}
@@ -65,4 +61,3 @@ function onClickHandler(e)
 	<p style="color: red">{error.message}</p>
 {/await}
 
-</div>

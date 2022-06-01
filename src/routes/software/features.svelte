@@ -12,12 +12,7 @@
 		<title>Features</title>
 	</svelte:head>
 	
-	<div class="content">
-
-	<Container>
-		
-
-
+	
 	 <h2>Features</h2>
 
 		<p>BEXIS 2 is a free and open source software (LGPL 3.0) supporting researchers in managing their data throughout the entire data life cycle from data collection, 
@@ -57,9 +52,7 @@
 			{/if}
 			</Row>
 
-	</Container>
-	</div>
-	
+
 	<style>
 	
 	img{

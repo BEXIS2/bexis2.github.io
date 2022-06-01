@@ -1,5 +1,7 @@
 <script>
 
+import SvelteMarkdown from 'svelte-markdown'
+
 export let name;
 export let body;
 
@@ -8,11 +10,12 @@ export let body;
 <h2>{name}</h2>
 
 <p>
- {body}
+ <SvelteMarkdown source={body} />
 </p>
 
 <style>
  h2{
   padding-top: 0;
  }
+ 
 </style>

@@ -39,25 +39,39 @@
 	function handleUpdate(event) {
 		isOpen = event.detail.isOpen;
 	}
+
+
 </script>
 
 <svelte:window />
 
 <header>
-	
-
-	<Navbar
-	  class="fixed-top" expand="md" light>
+	<Navbar color="light" light expand="md">
 		<NavbarBrand href="/"
 			>	<img src="{base + '/Logo_BEXIS_rgb_2600x830.png'}" alt="logo" width="200px"></NavbarBrand>
 		<NavbarToggler on:click={() => (isOpen = !isOpen)} />
 		<Collapse {isOpen} navbar expand="md" on:update={handleUpdate} >
-			<Nav class="" navbar>
+			<Nav class="ms-auto" navbar>
+				
 				<NavItem>
 					<li class="nav-item" class:active={$page.url.pathname === base + '/'}>
 						<a sveltekit:prefetch href={base + '/'} class="nav-link">Home</a>
 					</li>
 				</NavItem>
+
+				<!--Software-->
+				<Dropdown nav inNavbar>
+					<DropdownToggle nav caret>Software</DropdownToggle>
+					<DropdownMenu end>
+						<DropdownItem><a href={base + '/software/features'} >Features</a></DropdownItem>
+						<DropdownItem><a href='{base + '/software/releases'}' >Get Latest Version</a></DropdownItem>
+						<DropdownItem><a href='...' >Models Overview</a></DropdownItem>
+						<DropdownItem divider />
+						<DropdownItem><a href='https://demo.bexis2.uni-jena.de/' target="_blank" >Live Demo</a></DropdownItem>
+						<DropdownItem><a href='https://github.com/BEXIS2' target="_blank" >Source Code</a></DropdownItem>
+					</DropdownMenu>
+				</Dropdown>
+
 				<NavItem>
 					<li class="nav-item" class:active={$page.url.pathname === base + '/software/features'}>
 						<a sveltekit:prefetch href={base + '/software/features'} class="nav-link">Features</a>
@@ -130,16 +144,7 @@
 					</li>
 				</NavItem>-->
 				
-				<Dropdown nav inNavbar>
-					<DropdownToggle nav caret>Resources</DropdownToggle>
-					<DropdownMenu end>
-						<DropdownItem><a href={base + '/resources/manuals'} >Manuals</a>
-						</DropdownItem>
-						<DropdownItem>...</DropdownItem>
-						<DropdownItem divider />
-						<DropdownItem>...</DropdownItem>
-					</DropdownMenu>
-				</Dropdown>
+				
 			
 			</Nav>
 		</Collapse>

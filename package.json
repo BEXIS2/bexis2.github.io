@@ -34,6 +34,7 @@
 		"@fortawesome/free-solid-svg-icons": "^6.1.1",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/adapter-static": "^1.0.0-next.34",
-		"@sveltejs/kit": "next"
+		"@sveltejs/kit": "next",
+		"svelte-markdown": "^0.2.2"
 	}
 }
