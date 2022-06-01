@@ -2,6 +2,7 @@
 
 import { Container, Row, Col} from 'sveltestrap';
 import Card from '../components/card.svelte'
+import { base } from '$app/paths';
 </script>
 
 
@@ -12,7 +13,7 @@ import Card from '../components/card.svelte'
 <div class="content">
 <Container>
 
- <img src="/images/Bexis_Home_Header.gif" alt="banner" width="100%"/>
+ <img src="{base +'/images/Bexis_Home_Header.gif'}" alt="banner" width="100%"/>
 
  <Row>
   <Col xs=4>

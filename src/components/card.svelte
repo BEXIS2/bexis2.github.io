@@ -1,4 +1,7 @@
 <script>
+
+import { base } from '$app/paths';
+
 import {
     Col,
     Card,
@@ -14,12 +17,13 @@ export let title;
 export let description;
 export let icon="";
 
+
 </script>
 
 <Card class="mb-3" >
  <CardHeader>
     <CardTitle>
-     {#if icon!=""}<img src="{"/icons/"+icon}" alt="{icon}">{/if}
+     {#if icon!=""}<img src="{base+"/icons/"+icon}" alt="{icon}">{/if}
      {title}
     </CardTitle>
  </CardHeader>
