@@ -1,9 +1,9 @@
 <script>
 
 	import { Container, Row, Col} from 'sveltestrap';
-	import Card from '../components/card.svelte';
-	import endUserFeaturesJson from '../data/end_user_features.json';
-	import adminFeaturesJson from '../data/admin_features.json';
+	import Card from '../../components/card.svelte';
+	import endUserFeaturesJson from '../../data/end_user_features.json';
+	import adminFeaturesJson from '../../data/admin_features.json';
 
 	</script>
 	

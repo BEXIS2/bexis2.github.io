@@ -33,7 +33,7 @@
 		DropdownMenu,
 		DropdownItem
 	} from 'sveltestrap/src';
-import Features from 'src/routes/features.svelte';
+import Features from 'src/routes/software/features.svelte';
 
 	$: isOpen = null;
 
@@ -60,8 +60,13 @@ import Features from 'src/routes/features.svelte';
 					</li>
 				</NavItem>
 				<NavItem>
-					<li class="nav-item" class:active={$page.url.pathname === base + '/features'}>
-						<a sveltekit:prefetch href={base + '/features'} class="nav-link">Features</a>
+					<li class="nav-item" class:active={$page.url.pathname === base + '/software/features'}>
+						<a sveltekit:prefetch href={base + '/software/features'} class="nav-link">Features</a>
+					</li>
+				</NavItem>
+				<NavItem>
+					<li class="nav-item" class:active={$page.url.pathname === base + '/software/releases'}>
+						<a sveltekit:prefetch href={base + '/software/releases'} class="nav-link">Releases</a>
 					</li>
 				</NavItem>
 			<!--	<NavItem>
