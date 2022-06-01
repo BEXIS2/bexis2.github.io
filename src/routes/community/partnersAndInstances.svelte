@@ -1,12 +1,9 @@
 <script>
-
-	import { Container, Row, Col} from 'sveltestrap';
-
 	import instancesJson from '../../data/instances.json';
  import partnersJson from '../../data/partners.json';
  import projectsJson from '../../data/projects.json';
 
- import ImageLinkList from 'src/components/imageLinkList.svelte';
+ import ImageLinkList from '../../components/imageLinkList.svelte';
 
 	</script>
 
