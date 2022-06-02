@@ -1,7 +1,7 @@
 <script>
 
 import { Row, Col} from 'sveltestrap';
-import Card from '../components/Card.svelte'
+import Card from '$components/Card.svelte'
 import { base } from '$app/paths';
 </script>
 
