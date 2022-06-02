@@ -1,0 +1,31 @@
+[
+ {
+  "title":"BAM",
+  "url":"https://raw.githubusercontent.com/BEXIS2/Documents/master/Manuals/BAM/Manual.md"
+ },
+ {
+  "title":"DCM",
+  "url":"https://raw.githubusercontent.com/BEXIS2/Documents/master/Manuals/DCM/Manual.md"
+ },
+ {
+  "title":"DDM",
+  "url":"https://raw.githubusercontent.com/BEXIS2/Documents/master/Manuals/DDM/DataDiscovery_Manual.md"
+ },
+ {
+  "title":"DIM",
+  "url":"https://raw.githubusercontent.com/BEXIS2/Documents/master/Manuals/DIM/Manual.md"
+ },
+ {
+  "title":"RPM",
+  "url":"https://raw.githubusercontent.com/BEXIS2/Documents/master/Manuals/RPM/Manual.md"
+ },
+ {
+  "title":"SAM",
+  "url":"https://raw.githubusercontent.com/BEXIS2/Documents/master/Manuals/SAM/Manual.md"
+ },
+ {
+  "title":"VIM",
+  "url":"https://raw.githubusercontent.com/BEXIS2/Documents/master/Manuals/VIM/Manual.md"
+ }
+]
+ 

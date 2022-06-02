@@ -54,28 +54,36 @@
 			<Nav class="ms-auto" navbar>
 				
 				<NavItem>
-					<li class="nav-item" class:active={$page.url.pathname === base + '/'}>
+					<!-- <li class="nav-item" class:active={$page.url.pathname === base + '/'}> -->
 						<a sveltekit:prefetch href={base + '/'} class="nav-link">Home</a>
-					</li>
+					<!-- </li> -->
 				</NavItem>
 
 				<!--Software-->
-				<Dropdown nav inNavbar>
+				<Dropdown nav inNavbar >
 					<DropdownToggle nav caret>Software</DropdownToggle>
 					<DropdownMenu end>
-						<DropdownItem><a href={base + '/software/features'} >Features</a></DropdownItem>
-						<DropdownItem><a href='{base + '/software/releases'}' >Get Latest Version</a></DropdownItem>
-						<DropdownItem><a href='{base + '/software/modules'}' >Modules Overview</a></DropdownItem>
+						<DropdownItem href={base + '/software/features'}>Features</DropdownItem>
+						<DropdownItem href={base + '/software/releases'}>Get Latest Version</DropdownItem>
+						<DropdownItem href={base + '/software/modules'}>Modules Overview</DropdownItem>
 						<DropdownItem divider />
-						<DropdownItem><a href='https://demo.bexis2.uni-jena.de/' target="_blank" >Live Demo</a></DropdownItem>
-						<DropdownItem><a href='https://github.com/BEXIS2' target="_blank" >Source Code</a></DropdownItem>
+						<DropdownItem href='https://demo.bexis2.uni-jena.de/'>Live Demo</DropdownItem>
+						<DropdownItem href='https://github.com/BEXIS2'>Source Code</DropdownItem>
 					</DropdownMenu>
 				</Dropdown>
 
 				<Dropdown nav inNavbar>
 					<DropdownToggle nav caret>Community</DropdownToggle>
 					<DropdownMenu end>
-						<DropdownItem><a href={base + '/community/partnersAndInstances'} >Partners & Instances</a></DropdownItem>
+						<DropdownItem href={base + '/community/partnersAndInstances'}>Partners & Instances</DropdownItem>
+						</DropdownMenu>
+				</Dropdown>
+
+				<Dropdown nav inNavbar>
+					<DropdownToggle nav caret>Resources</DropdownToggle>
+					<DropdownMenu end>
+						<DropdownItem href={base + '/resources/install'}>Installation Guide</DropdownItem>
+						<DropdownItem href={base + '/resources/manuals'}>Manuals</DropdownItem>
 						</DropdownMenu>
 				</Dropdown>
 
