@@ -1,7 +1,7 @@
 <script>
 
 	import { Row, Col} from 'sveltestrap';
-	import Card from '../../components/Card.svelte';
+	import Card from '$lib/components/Card.svelte';
 	import endUserFeaturesJson from '../../data/end_user_features.json';
 	import adminFeaturesJson from '../../data/admin_features.json';
 
