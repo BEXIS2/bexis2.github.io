@@ -12,7 +12,7 @@ export default {
 			sr: false
 		}),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '' : '' ///bexis2-github-io/
+			base: process.env.NODE_ENV === 'production' ? '/bexis2-github-io' : '' ///bexis2-github-io/
 			//base: process.env.NODE_ENV === 'production' ? '' : ''
 		},
 		trailingSlash: 'always',
