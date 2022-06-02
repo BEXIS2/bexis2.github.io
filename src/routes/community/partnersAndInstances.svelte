@@ -3,7 +3,7 @@
  import partnersJson from '../../data/partners.json';
  import projectsJson from '../../data/projects.json';
 
- import ImageLinkList from '$lib/components/imageLinkList.svelte'
+ import ImageLinkList from '$lib/components/ImageLinkList.svelte'
 
 	</script>
 
