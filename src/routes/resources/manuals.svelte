@@ -1,6 +1,6 @@
 <script>
 import manualsJson from '../../data/manuals.json';
-import MarkdownViewer from '$lib/components/MarkdownViewer.svelte'
+import MarkdownViewer from '$lib/components/MarkdownView.svelte'
 
 import { TabContent, TabPane } from 'sveltestrap';
 
