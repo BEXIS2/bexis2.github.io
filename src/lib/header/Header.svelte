@@ -78,7 +78,7 @@
 						<DropdownItem href={base + '/resources/install'}>Installation Guide</DropdownItem>
 						<DropdownItem href={base + '/resources/manuals'}>Manuals</DropdownItem>
 						<DropdownItem href={base + '/resources/techtalks'}>Tech Talks</DropdownItem>
-						<DropdownItem href={base + '/resources/manuals'} target="_blank">Publications</DropdownItem>	
+						<DropdownItem href={base + '/resources/publications'} >Publications</DropdownItem>	
 						<DropdownItem href="https://fusion.cs.uni-jena.de/bppCM/index.htm" target="_blank">Conceptional Model</DropdownItem>	
 					</DropdownMenu>
 				</Dropdown>
