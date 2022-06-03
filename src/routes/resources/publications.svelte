@@ -1,31 +1,28 @@
 <script>
 
-	import { Row, Col} from 'sveltestrap';
+	import { Row, Col, TabContent, TabPane} from 'sveltestrap';
 
 	import publications from '../../data/publications.json';
 	import Publication from '$lib/components/Publication.svelte';
 
+ $:selectedPubs = publications;
+ 
+	export let years=[];
 
- let selected = "";
 
-
-	</script>
+</script>
 	
 	
 	<svelte:head>
 		<title>Publications</title>
 	</svelte:head>
-		<Row>
-			{#if publications}
-					<!-- content here -->
-					{#each publications as publication}
-							<!-- content here -->
-							<Col xs=12>
-        <Publication {...publication} ></Publication>
-        <hr>
-							</Col>
-					{/each}
-			{:else}
-			<b>not loaded</b>		
-			{/if}
-	</Row>
+
+{#if selectedPubs}
+
+{#each selectedPubs as pub}
+	 <!-- content here -->
+		<Publication {...pub}></Publication>
+{/each}
+
+{/if}
+	
