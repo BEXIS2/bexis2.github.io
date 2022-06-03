@@ -38,7 +38,6 @@
 	}
 
 	footer a {
-		font-weight: bold;
 		color: gray;
 	}
 
