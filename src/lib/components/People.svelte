@@ -1,5 +1,8 @@
 <script>
 
+import { base } from '$app/paths';
+
+
 export let name;
 export let position;
 export let address;
@@ -10,7 +13,7 @@ export let image;
 </script>
 
 <div class="card" style="width: 18rem;">
- <img src="/images/people/{image}" class="card-img-top" alt="...">
+ <img src="{base}/images/people/{image}" class="card-img-top" alt="...">
  <div class="card-body">
    <h5 class="card-title">{name}</h5>
    <hr>
