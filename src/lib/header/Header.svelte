@@ -87,21 +87,20 @@
 					<DropdownToggle nav caret>Community</DropdownToggle>
 					<DropdownMenu end>
 						<DropdownItem href={base + '/community/partnersAndInstances'}>Partners & Instances</DropdownItem>
+						<DropdownItem href={base + '/community/mailinglists'}>Mailing Lists</DropdownItem>
 						</DropdownMenu>
 				</Dropdown>
 
-			
+				<Dropdown nav inNavbar>
+					<DropdownToggle nav caret>About</DropdownToggle>
+					<DropdownMenu end>
+						<DropdownItem href={base + '/about/people'}>People</DropdownItem>
+						<DropdownItem href={base + '/about/jobs'}>Jobs</DropdownItem>
+						<DropdownItem href={base + '/about/contactus'}>Contact Us</DropdownItem>
+						
+						</DropdownMenu>
+				</Dropdown>
 
-				<!-- <NavItem>
-					<li class="nav-item" class:active={$page.url.pathname === base + '/software/features'}>
-						<a sveltekit:prefetch href={base + '/software/features'} class="nav-link">Features</a>
-					</li>
-				</NavItem>
-				<NavItem>
-					<li class="nav-item" class:active={$page.url.pathname === base + '/software/releases'}>
-						<a sveltekit:prefetch href={base + '/software/releases'} class="nav-link">Releases</a>
-					</li>
-				</NavItem> -->
 			</Nav>
 		</Collapse>
 	</Navbar>

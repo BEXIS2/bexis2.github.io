@@ -1,0 +1,67 @@
+[
+ {
+  "name":"Roman Gerlach",
+  "position":"Project Coordinator",
+  "address":{
+    "name":"Friedrich-Schiller-University Jena",
+    "street":"Leutragraben 1, Jentower",
+    "postcode":"07743",
+    "city":"jena"
+  },
+  "phone":"+49 3641 946340",
+  "mail":"roman.gerlach@uni-jena.de",
+  "image":"roman-gerlach.png"
+ },
+ {
+  "name":"Dr Jitendra Gaikwad",
+  "position":"Community Manager",
+  "address":{
+    "name":"Friedrich-Schiller-University Jena",
+    "street":"Leutragraben 1, Jentower",
+    "postcode":"07743",
+    "city":"jena"
+  },
+  "phone":"+49 3641 946368",
+  "mail":"jitendra.gaikwad@uni-jena.de",
+  "image":"jitendra.jpg"
+ },
+ {
+  "name":"Sven Thiel",
+  "position":"Developer",
+  "address":{
+    "name":"Friedrich-Schiller-University Jena",
+    "street":"Leutragraben 1, Jentower",
+    "postcode":"07743",
+    "city":"jena"
+  },
+  "phone":"+49 3641 99409",
+  "mail":"sven.thiel@uni-jena.de",
+  "image":"Sven-Thiel-quadratisch.jpg"
+ },
+ {
+  "name":"David Schöne",
+  "position":"Developer",
+  "address":{
+    "name":"Friedrich-Schiller-University Jena",
+    "street":"Leutragraben 1, Jentower",
+    "postcode":"07743",
+    "city":"jena"
+  },
+  "phone":"+49 3641 99409",
+  "mail":"david.schoene@uni-jena.de",
+  "image":"David-Schöne-quadratisch.jpg"
+ },
+ {
+  "name":"Prof. Dr. Birgitta König-Ries",
+  "position":"",
+  "address":{
+    "name":"Friedrich-Schiller-University Jena",
+    "street":"Leutragraben 1, Jentower",
+    "postcode":"07743",
+    "city":"jena"
+  },
+  "phone":"+49 3641 946430",
+  "mail":"Birgitta.Koenig-Ries@uni-jena.de",
+  "image":"BKR-300x257.jpg"
+ }
+]

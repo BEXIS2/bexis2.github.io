@@ -26,11 +26,11 @@
    <div class="abstract">{@html abstract}</div>
   
    <b>{type}</b> 
-   <br>
-
    {#if link != ""}
-     <a href="{link.url}">{link.name}</a>
+   : <a href="{link.url}">{link.name}</a>
    {/if}
+   <br/>
+   <br/>
   </div>
 {:else}
   <!-- else content here -->
@@ -43,12 +43,17 @@
 
 <style>
  .publication-view,.publication-preview{
-  cursor: pointer;
-  
+ 
+  border-bottom: 1px solid var(--text-color);
+ }
+
+ .publication-view:hover,.publication-preview:hover{
+  border-bottom: 1px solid var(--accent-color);
  }
 
  h2:hover{
   color: var(--accent-color);
+  cursor: pointer;
  }
 
 .abstract
@@ -59,8 +64,6 @@
 
 .preview
 {
-  
-
   /**Major Properties**/
   overflow:hidden;
   max-height: 4rem;

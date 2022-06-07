@@ -1,0 +1,19 @@
+[
+ {
+  "title":"Software Architect/Engineer",
+  "description":"<p>We are looking for an experienced software architect/engineer to join and lead the BEXIS2 core development team a the Friedrich-Schiller University in Jena, Germany.</p>",
+  "deadline":"31/08/2019",
+  "external":"https://www4.uni-jena.de/Universit%C3%A4t/Stellenmarkt/Wissenschaftliche+Mitarbeiter/174_2019_+Wissenschaftliche+Mitarbeiterin+_+Wissenschaftlicher+Mitarbeiter.html",
+  "contact":""
+ },
+ {
+  "title":"Student Assistant Position",
+  "description":"<p>You are a student in computer science and interested in working in the interdisciplinary BExIS++ team as a research assistant while completing your studies?</p><p>Then there is a good opportunity for you to work as a developer, while practicing your subject of study, simultaneously. You’ll have the chance to gain some experience in software architectures, databases and programming. The workload will vary between 20 to 40 hours per month. Flexible hours are available all year round. For holiday season, we will find an individual solution for you. You should have at least some experience in object oriented programming, preferably in C#.NET to apply. Some literacy in English would be helpful too.</p>",
+  "deadline":"",
+  "external":"",
+  "contact":{
+   "name":"Roman Gerlach",
+   "email":"roman.gerlach[at]uni-jena.de"
+  }
+ }
+]
