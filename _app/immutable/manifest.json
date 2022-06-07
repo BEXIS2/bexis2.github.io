@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-1ac0160b.js",
+    "file": "start-37ce42e3.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -220,7 +220,7 @@
     ]
   },
   "src/routes/software/releases.svelte": {
-    "file": "pages/software/releases.svelte-978c644c.js",
+    "file": "pages/software/releases.svelte-3e134e40.js",
     "src": "src/routes/software/releases.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -228,10 +228,11 @@
       "_index-f4bc5dab.js",
       "_Row-29e0025b.js",
       "_utils-f9eb197c.js",
+      "_paths-396f020f.js",
       "_SvelteMarkdown-e860d6ff.js"
     ],
     "css": [
-      "assets/pages/software/releases.svelte-6be88fa0.css",
+      "assets/pages/software/releases.svelte-693e3aac.css",
       "assets/Offcanvas.svelte_svelte_type_style_lang-82c1b07d.css"
     ]
   },
