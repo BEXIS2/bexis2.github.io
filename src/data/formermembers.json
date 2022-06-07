@@ -1,0 +1,26 @@
+[
+ {
+  "name":"Dr. Javad Chamanara",
+  "position":"System Architect",
+  "address":"",
+  "phone":"",
+  "mail":"chamanara@tib.eu",
+  "image":"Chamanara.jpg"
+ },
+ {
+  "name":"Thorsten Hindermann",
+  "position":"DV-Systemtechniker",
+  "address":"",
+  "phone":"",
+  "mail":"thorsten.hindermann@gwdg.de",
+  "image":"Hindermann_Thorsten-quadratisch.jpg"
+ },
+ {
+  "name":"Nafiseh Navabpour",
+  "position":"Data Manager SPP 2089",
+  "address":"",
+  "phone":"",
+  "mail":"nafiseh.navabpour@ufz.de",
+  "image":"Nafiseh-Navabpour.jpg"
+ }
+]
