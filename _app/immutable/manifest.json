@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-2830d2a4.js",
+    "file": "start-321bdbad.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -100,7 +100,7 @@
     ]
   },
   "src/routes/community/news-overview.svelte": {
-    "file": "pages/community/news-overview.svelte-bfbfe121.js",
+    "file": "pages/community/news-overview.svelte-58fdc4b3.js",
     "src": "src/routes/community/news-overview.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -230,7 +230,7 @@
     ]
   },
   "src/routes/software/releases.svelte": {
-    "file": "pages/software/releases.svelte-a9b33d28.js",
+    "file": "pages/software/releases.svelte-db50c2dd.js",
     "src": "src/routes/software/releases.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
