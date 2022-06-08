@@ -9,7 +9,7 @@
    return {
      status: response.status,
      props: {
-       bexis2releases: ""
+       bexis2releases: response.ok && (await response.json())
      }
    };
  }
