@@ -1,7 +1,7 @@
 <script context="module">
  /** @type {import('./__types/[slug]').Load} */
  export async function load() {
-   const url = `https://api.github.com/repos/BEXIS2/Core/releases`;
+   const url = 'https://api.github.com/repos/BEXIS2/Core/releases';
    const response = await fetch(url);
 
    console.log("load releases");
