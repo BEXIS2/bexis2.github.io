@@ -17,7 +17,7 @@
 
 
 <script>
-import { Row,Col, ListGroup, ListGroupItem } from 'sveltestrap';
+import { TabContent, TabPane } from 'sveltestrap';
 import Release from '$lib/components/Release.svelte';
 
 export let bexis2releases="";
@@ -43,7 +43,7 @@ function onClickHandler(e)
 	<p>...waiting</p>
 {:then releases}
 
-<Row>
+<!-- <Row>
  <Col xs=2>
   <ListGroup>
    {#each releases as release}
@@ -53,9 +53,24 @@ function onClickHandler(e)
  </Col>
  <Col>
  <Release {...selected}> </Release>
-
  </Col>
-</Row>
+</Row> -->
+
+<div class="content">
+  <TabContent vertical pills>
+    {#if releases}
+       <!-- content here -->
+        {#each releases as release}
+           <!-- content here -->
+            <TabPane tabId="{release.id}" tab="{release.tag_name}">
+              <Release {...release}> </Release>
+            </TabPane>
+        {/each}
+    {/if}
+  </TabContent>
+</div>
+
+
 
 {:catch error}
 	<p style="color: red">{error.message}</p>

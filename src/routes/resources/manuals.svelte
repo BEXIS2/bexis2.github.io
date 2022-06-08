@@ -11,7 +11,7 @@ import { TabContent, TabPane } from 'sveltestrap';
 </svelte:head>
 
 <div class="content">
-		<TabContent>
+		<TabContent vertical pills>
 			{#if manualsJson}
 				 <!-- content here -->
 					{#each manualsJson as manual}
@@ -23,3 +23,9 @@ import { TabContent, TabPane } from 'sveltestrap';
 			{/if}
 		</TabContent>
 </div>
+
+<style>
+	.markdown-container{
+		padding-top: 0px;
+	}
+</style>

@@ -88,6 +88,7 @@
 					<DropdownMenu end>
 						<DropdownItem href={base + '/community/partnersAndInstances'}>Partners & Instances</DropdownItem>
 						<DropdownItem href={base + '/community/mailinglists'}>Mailing Lists</DropdownItem>
+						<DropdownItem href={base + '/community/news'}>News</DropdownItem>
 						</DropdownMenu>
 				</Dropdown>
 
