@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-37ce42e3.js",
+    "file": "start-2830d2a4.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -15,6 +15,7 @@
       "src/routes/about/jobs.svelte",
       "src/routes/about/people.svelte",
       "src/routes/community/mailinglists.svelte",
+      "src/routes/community/news-overview.svelte",
       "src/routes/community/partnersAndInstances.svelte",
       "src/routes/imprint.svelte",
       "src/routes/index.svelte",
@@ -28,7 +29,7 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-5a24ed1b.js",
+    "file": "pages/__layout.svelte-c1608aba.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -98,6 +99,15 @@
       "_index-f4bc5dab.js"
     ]
   },
+  "src/routes/community/news-overview.svelte": {
+    "file": "pages/community/news-overview.svelte-bfbfe121.js",
+    "src": "src/routes/community/news-overview.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-f4bc5dab.js"
+    ]
+  },
   "src/routes/community/partnersAndInstances.svelte": {
     "file": "pages/community/partnersAndInstances.svelte-4cee587f.js",
     "src": "src/routes/community/partnersAndInstances.svelte",
@@ -150,19 +160,19 @@
     ]
   },
   "src/routes/resources/manuals.svelte": {
-    "file": "pages/resources/manuals.svelte-6d091864.js",
+    "file": "pages/resources/manuals.svelte-fb74b2ea.js",
     "src": "src/routes/resources/manuals.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-f4bc5dab.js",
       "_SvelteMarkdown-e860d6ff.js",
+      "_TabPane-79d05d1d.js",
       "_index-d30ae72a.js",
       "_utils-f9eb197c.js",
       "_NavItem-10d38098.js"
     ],
     "css": [
-      "assets/pages/resources/manuals.svelte-1ac79193.css",
       "assets/Offcanvas.svelte_svelte_type_style_lang-82c1b07d.css"
     ]
   },
@@ -220,16 +230,19 @@
     ]
   },
   "src/routes/software/releases.svelte": {
-    "file": "pages/software/releases.svelte-3e134e40.js",
+    "file": "pages/software/releases.svelte-a9b33d28.js",
     "src": "src/routes/software/releases.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-f4bc5dab.js",
-      "_Row-29e0025b.js",
-      "_utils-f9eb197c.js",
+      "_TabPane-79d05d1d.js",
       "_paths-396f020f.js",
-      "_SvelteMarkdown-e860d6ff.js"
+      "_SvelteMarkdown-e860d6ff.js",
+      "_Row-29e0025b.js",
+      "_index-d30ae72a.js",
+      "_utils-f9eb197c.js",
+      "_NavItem-10d38098.js"
     ],
     "css": [
       "assets/pages/software/releases.svelte-693e3aac.css",
@@ -281,6 +294,15 @@
     "file": "chunks/SvelteMarkdown-e860d6ff.js",
     "imports": [
       "_index-f4bc5dab.js"
+    ]
+  },
+  "_TabPane-79d05d1d.js": {
+    "file": "chunks/TabPane-79d05d1d.js",
+    "imports": [
+      "_index-f4bc5dab.js",
+      "_index-d30ae72a.js",
+      "_utils-f9eb197c.js",
+      "_NavItem-10d38098.js"
     ]
   }
 }
