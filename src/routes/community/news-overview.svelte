@@ -1,5 +1,5 @@
 <script>
-	import news from '../../data/news.json';
+	import newsJson from '../../data/news.json';
  import News from '$lib/components/News.svelte'
 
 	</script>
@@ -8,9 +8,9 @@
  <title>News</title>
 </svelte:head>
 
-{#if news}
+{#if newsJson}
 
-{#each news as n}
+{#each newsJson as n}
 	 <!-- content here -->
 		<News {...n}></News>
 {/each}
