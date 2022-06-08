@@ -1,6 +1,5 @@
 <script>
  export let title;
- export let body;
  export let summary;
 </script>
 
