@@ -7,7 +7,7 @@
 
 {#if summary}
   <!-- content here -->
-  <p>{@html summary[0]}</p>
+  <p>{@html summary}</p>
 {/if}
 
 
