@@ -4,5 +4,11 @@
 </script>
 
 <h2>{title}</h2>
-<p>{@html summary[0]}</p>
+
+{#if summary}
+  <!-- content here -->
+  <p>{@html summary[0]}</p>
+{/if}
+
+
 <hr>
