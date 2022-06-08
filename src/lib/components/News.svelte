@@ -4,5 +4,5 @@
 </script>
 
 <h2>{title}</h2>
-<p>{@html summary}</p>
+<p>{@html summary[0]}</p>
 <hr>
