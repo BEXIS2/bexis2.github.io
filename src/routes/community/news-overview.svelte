@@ -1,8 +1,5 @@
 <script>
 	import news from '../../data/news.json';
- import partnersJson from '../../data/partners.json';
- import projectsJson from '../../data/projects.json';
-
  import News from '$lib/components/News.svelte'
 
 	</script>
