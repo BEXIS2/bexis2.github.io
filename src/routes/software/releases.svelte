@@ -22,17 +22,6 @@ import Release from '$lib/components/Release.svelte';
 
 export let bexis2releases="";
 
-export let selected = bexis2releases[0];
-
-function onClickHandler(e)
-{
- console.log(e);
-
- selected = bexis2releases.filter(r=>r.id == e)[0]
- console.log(selected);
-}
-
-
 </script>
 
 <svelte:head>
@@ -42,19 +31,6 @@ function onClickHandler(e)
 {#await bexis2releases}
 	<p>...waiting</p>
 {:then releases}
-
-<!-- <Row>
- <Col xs=2>
-  <ListGroup>
-   {#each releases as release}
-     <ListGroupItem tag="Button" active={release.id==selected.id}  on:click={()=>onClickHandler(release.id)}> <span id={release.id}>{release.name}</span> </ListGroupItem>
-   {/each}
- </ListGroup>
- </Col>
- <Col>
- <Release {...selected}> </Release>
- </Col>
-</Row> -->
 
 <div class="content">
   <TabContent vertical pills>
