@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-321bdbad.js",
+    "file": "start-5685fea6.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -100,7 +100,7 @@
     ]
   },
   "src/routes/community/news-overview.svelte": {
-    "file": "pages/community/news-overview.svelte-58fdc4b3.js",
+    "file": "pages/community/news-overview.svelte-ecfe4881.js",
     "src": "src/routes/community/news-overview.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
