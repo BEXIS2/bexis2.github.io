@@ -4,8 +4,6 @@ import { base } from '$app/paths';
 import SvelteMarkdown from 'svelte-markdown'
 import {Row,Col} from 'sveltestrap'
 
-
-
 export let name;
 export let body;
 export let author;
@@ -25,6 +23,7 @@ export let assets;
  <Col xs=6 >
  <div class="text-end" >{published_at}</div></Col>
 </Row>
+
 
 <hr>
 

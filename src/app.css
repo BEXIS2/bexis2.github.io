@@ -9,9 +9,14 @@
 	--accent-color: orange;
 	--heading-color: rgba(0, 0, 0, 0.7);
 	--text-color: #444444;
-	--background-without-opacity: rgba(255, 255, 255, 0.7);
+	--background-without-opacity: rgba(255, 255, 255, 0.5);
 	--column-width: 100rem;
 	--column-margin-top: 0rem;
+
+	--hover-color:#eee;
+
+	--bs-primary: var(--accent-color);
+
 }
 
 body {
@@ -138,4 +143,29 @@ hr {
 	font-weight: bold;
 	color: red;
 	text-align: center;
+}
+
+/*override Bootstrap*/
+.nav-pills .nav-link{
+	border-left: 2px solid white;
+	border-radius: 0%;
+	color: var(--text-color);
+}
+
+/*override Bootstrap*/
+.nav-pills .nav-link.active{
+	border-left: 2px solid var(--bs-primary);
+	background-color: white;
+	color: var(--text-color);
+}
+
+.nav-pills .nav-link:hover{
+	border-left: 2px solid var(--bs-primary);
+	background-color:  var(--hover-color);
+	color: var(--text-color);
+}
+
+.dropdown-item:active{
+	background-color: var(--hover);
+ color:var(--text-color);
 }

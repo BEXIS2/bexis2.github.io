@@ -2,7 +2,7 @@
 import manualsJson from '../../data/manuals.json';
 import MarkdownViewer from '$lib/components/MarkdownView.svelte'
 
-import { TabContent, TabPane } from 'sveltestrap';
+import { TabContent, TabPane, Spinner } from 'sveltestrap';
 
 </script>
 
@@ -11,8 +11,9 @@ import { TabContent, TabPane } from 'sveltestrap';
 </svelte:head>
 
 <div class="content">
+	{#if manualsJson}
 		<TabContent vertical pills>
-			{#if manualsJson}
+		
 				 <!-- content here -->
 					{#each manualsJson as manual}
 						 <!-- content here -->
@@ -20,8 +21,13 @@ import { TabContent, TabPane } from 'sveltestrap';
 									<MarkdownViewer {...manual} />
 							</TabPane>
 					{/each}
-			{/if}
-		</TabContent>
+			
+			</TabContent>
+		{:else}
+			<div style="width:100%; text-align:center">
+				<Spinner color="primary"/>
+		</div>
+	{/if}
 </div>
 
 <style>

@@ -5,7 +5,7 @@
 	import publications from '../../data/publications.json';
 	import Publication from '$lib/components/Publication.svelte';
 
- $:selectedPubs = publications;
+ 	$:selectedPubs = publications;
  
 	export let years=[];
 
@@ -19,10 +19,12 @@
 
 {#if selectedPubs}
 
-{#each selectedPubs as pub}
-	 <!-- content here -->
-		<Publication {...pub}></Publication>
-{/each}
-
+	{#each selectedPubs as pub}
+		<!-- content here -->
+			<Publication {...pub}></Publication>
+	{/each}
+{:else}
+ <b>...loading</b>
 {/if}
+
 	

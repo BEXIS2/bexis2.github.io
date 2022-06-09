@@ -64,7 +64,7 @@
 					<DropdownToggle nav caret>Software</DropdownToggle>
 					<DropdownMenu end>
 						<DropdownItem href={base + '/software/features'}>Features</DropdownItem>
-						<DropdownItem href={base + '/software/releases'}>Get Latest Version</DropdownItem>
+						<DropdownItem href={base + '/software/releases/latest'}>Get Latest Version</DropdownItem>
 						<DropdownItem href={base + '/software/modules'}>Modules Overview</DropdownItem>
 						<DropdownItem divider />
 						<DropdownItem href='https://demo.bexis2.uni-jena.de/'>Live Demo</DropdownItem>
