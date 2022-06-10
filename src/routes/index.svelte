@@ -13,17 +13,17 @@ import { base } from '$app/paths';
 <img src="{base +'/images/Bexis_Home_Header.gif'}" alt="banner" width="100%"/>
 
 <Row>
- <Col xs=4>
+ <Col xs=12 sm=6 md=4>
   <Card title="Feature">
    BEXIS 2 supports a broad range of data structures, data types and more. Take a look at all <a href="{base+'/software/features'}">BEXIS 2 features</a>.
   </Card>
  </Col>
- <Col xs=4>
+ <Col xs=12 sm=6 md=4>
   <Card title="Demo">
    Get familiar with BEXIS 2 environment and try out its useful features. <a href="https://demo.bexis2.uni-jena.de/" target="_blank">See the latest version in action!</a>
   </Card>
  </Col>
- <Col xs=4>
+ <Col xs=12 sm=6 md=4>
   <Card title="Latest Releases">
    Manage your research data now. BEXIS is easy to run and simple to maintain. <a href="{base}/software/releases">Download the latest version </a> of BEXIS 2.
   </Card>

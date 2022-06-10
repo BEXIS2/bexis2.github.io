@@ -19,7 +19,6 @@
 <script>
 
 import Release from '$lib/components/Release.svelte';
-import {Row,Col} from 'sveltestrap'
 
 export let bexis2releases="";
 

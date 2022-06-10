@@ -65,6 +65,7 @@
 					<DropdownMenu end>
 						<DropdownItem href={base + '/software/features'}>Features</DropdownItem>
 						<DropdownItem href={base + '/software/releases'}>Releases</DropdownItem>
+						<DropdownItem href={base + '/software/milestones'}>Milestones</DropdownItem>
 						<DropdownItem href={base + '/software/modules'}>Modules Overview</DropdownItem>
 						<DropdownItem divider />
 						<DropdownItem href='https://demo.bexis2.uni-jena.de/'>Live Demo</DropdownItem>
