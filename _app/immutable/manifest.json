@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-3f64c8ce.js",
+    "file": "start-27dcdf0c.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -25,11 +25,11 @@
       "src/routes/resources/techtalks.svelte",
       "src/routes/software/features.svelte",
       "src/routes/software/modules.svelte",
-      "src/routes/software/releases/[tag].svelte"
+      "src/routes/software/releases.svelte"
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-fb64533c.js",
+    "file": "pages/__layout.svelte-4697b415.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -133,19 +133,20 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-7bbc992b.js",
+    "file": "pages/index.svelte-4dbb7375.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-f4bc5dab.js",
       "_Row-29e0025b.js",
-      "_Card-d3e6c784.js",
+      "_Card-114d8a25.js",
       "_paths-396f020f.js",
-      "_utils-f9eb197c.js"
+      "_utils-f9eb197c.js",
+      "_CardBody-e02f41f3.js"
     ],
     "css": [
-      "assets/pages/index.svelte-40428e95.css",
+      "assets/pages/index.svelte-c06f13df.css",
       "assets/Offcanvas.svelte_svelte_type_style_lang-82c1b07d.css"
     ]
   },
@@ -160,14 +161,13 @@
     ]
   },
   "src/routes/resources/manuals.svelte": {
-    "file": "pages/resources/manuals.svelte-a1d7ce7e.js",
+    "file": "pages/resources/manuals.svelte-84cc579a.js",
     "src": "src/routes/resources/manuals.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-f4bc5dab.js",
       "_SvelteMarkdown-e860d6ff.js",
-      "_TabPane-a085aae4.js",
       "_utils-f9eb197c.js",
       "_index-d30ae72a.js",
       "_NavItem-10d38098.js"
@@ -204,16 +204,17 @@
     ]
   },
   "src/routes/software/features.svelte": {
-    "file": "pages/software/features.svelte-5809c7d9.js",
+    "file": "pages/software/features.svelte-83a16990.js",
     "src": "src/routes/software/features.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-f4bc5dab.js",
       "_Row-29e0025b.js",
-      "_Card-d3e6c784.js",
+      "_Card-114d8a25.js",
       "_utils-f9eb197c.js",
-      "_paths-396f020f.js"
+      "_paths-396f020f.js",
+      "_CardBody-e02f41f3.js"
     ],
     "css": [
       "assets/Offcanvas.svelte_svelte_type_style_lang-82c1b07d.css"
@@ -229,23 +230,20 @@
       "_SvelteMarkdown-e860d6ff.js"
     ]
   },
-  "src/routes/software/releases/[tag].svelte": {
-    "file": "pages/software/releases/_tag_.svelte-bd465286.js",
-    "src": "src/routes/software/releases/[tag].svelte",
+  "src/routes/software/releases.svelte": {
+    "file": "pages/software/releases.svelte-30298696.js",
+    "src": "src/routes/software/releases.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-f4bc5dab.js",
-      "_TabPane-a085aae4.js",
       "_paths-396f020f.js",
       "_SvelteMarkdown-e860d6ff.js",
+      "_CardBody-e02f41f3.js",
       "_Row-29e0025b.js",
-      "_utils-f9eb197c.js",
-      "_index-d30ae72a.js",
-      "_NavItem-10d38098.js"
+      "_utils-f9eb197c.js"
     ],
     "css": [
-      "assets/pages/software/releases/_tag_.svelte-6720805d.css",
       "assets/Offcanvas.svelte_svelte_type_style_lang-82c1b07d.css"
     ]
   },
@@ -278,11 +276,12 @@
   "_utils-f9eb197c.js": {
     "file": "chunks/utils-f9eb197c.js"
   },
-  "_Card-d3e6c784.js": {
-    "file": "chunks/Card-d3e6c784.js",
+  "_Card-114d8a25.js": {
+    "file": "chunks/Card-114d8a25.js",
     "imports": [
       "_index-f4bc5dab.js",
       "_paths-396f020f.js",
+      "_CardBody-e02f41f3.js",
       "_utils-f9eb197c.js"
     ],
     "css": [
@@ -290,19 +289,17 @@
       "assets/Offcanvas.svelte_svelte_type_style_lang-82c1b07d.css"
     ]
   },
+  "_CardBody-e02f41f3.js": {
+    "file": "chunks/CardBody-e02f41f3.js",
+    "imports": [
+      "_index-f4bc5dab.js",
+      "_utils-f9eb197c.js"
+    ]
+  },
   "_SvelteMarkdown-e860d6ff.js": {
     "file": "chunks/SvelteMarkdown-e860d6ff.js",
     "imports": [
       "_index-f4bc5dab.js"
-    ]
-  },
-  "_TabPane-a085aae4.js": {
-    "file": "chunks/TabPane-a085aae4.js",
-    "imports": [
-      "_index-f4bc5dab.js",
-      "_utils-f9eb197c.js",
-      "_index-d30ae72a.js",
-      "_NavItem-10d38098.js"
     ]
   }
 }
