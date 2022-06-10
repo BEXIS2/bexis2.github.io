@@ -25,7 +25,7 @@ import { base } from '$app/paths';
  </Col>
  <Col xs=4>
   <Card title="Latest Releases">
-   Manage your research data now. BEXIS is easy to run and simple to maintain. <a href="{base}/software/releases/latest">Download the latest version </a> of BEXIS 2.
+   Manage your research data now. BEXIS is easy to run and simple to maintain. <a href="{base}/software/releases">Download the latest version </a> of BEXIS 2.
   </Card>
  </Col>
 </Row>
@@ -36,6 +36,5 @@ import { base } from '$app/paths';
 img{
  margin-bottom: 20px;
 }
-
 
 </style>
