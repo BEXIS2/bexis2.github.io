@@ -2,7 +2,7 @@
 
 import team from '../../data/team.json'
 import former from '../../data/formermembers.json'
-
+import contributers from '../../data/contributers.json'
 import People from '$lib/components/People.svelte';
 import {Row, Col} from 'sveltestrap'
 
@@ -24,6 +24,21 @@ import {Row, Col} from 'sveltestrap'
 <hr>
 <br>
 
+<h2>Contributers</h2>
+
+<Row>
+{#if contributers}
+  <!-- content here -->
+  {#each contributers as con}
+    <!-- content here -->
+    <Col><People {...con} /></Col>
+  {/each}
+{/if}
+</Row>
+
+<br>
+<hr>
+<br>
 
 <h2>Former Members</h2>
 
