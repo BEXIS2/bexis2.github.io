@@ -19,9 +19,11 @@ export let image;
    <hr>
    <div class="position">{position}</div>
    <p class="card-text">
-    {address.name}<br/>
-    {address.street}<br/>
-    {address.postcode}, {address.city}<br/>
+    {#if address}
+      {address.name}<br/>
+      {address.street}<br/>
+      {address.postcode}, {address.city}<br/>
+    {/if}
    </p>
    <p class="card-text">{mail} <br/> {phone}</p>
   </div>

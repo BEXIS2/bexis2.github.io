@@ -1,0 +1,29 @@
+[
+ {
+  "name":"Martin Hohmuth",
+  "position":"Developer",
+  "address":{
+    "name":"Friedrich-Schiller-University Jena",
+    "street":"Leutragraben 1, Jentower",
+    "postcode":"07743",
+    "city":"jena"
+  },
+  "phone":"+49 3641 946366",
+  "mail":"martin.hohmuth@uni-jena.de",
+  "image":"martin.hohmuth@uni-jena.de.jpg"
+ },
+ {
+  "name":"Hamdi Hamed",
+  "position":"Developer",
+  "address":{
+    "name":"Friedrich-Schiller-University Jena",
+    "street":"Leutragraben 1, Jentower",
+    "postcode":"07743",
+    "city":"jena"
+  },
+  "phone":"",
+  "mail":"hamdi.hamed@uni-jena.de",
+  "image":"hamdi.hamed@uni-jena.de.jpg"
+ }
+ 
+]

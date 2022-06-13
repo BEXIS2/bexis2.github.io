@@ -26,6 +26,19 @@
   "image":"jitendra.jpg"
  },
  {
+  "name":"Franziska Zander",
+  "position":"Developer",
+  "address":{
+    "name":"Friedrich-Schiller-University Jena",
+    "street":"Leutragraben 1, Jentower",
+    "postcode":"07743",
+    "city":"jena"
+  },
+  "phone":"",
+  "mail":"franziska.zander@uni-jena.de",
+  "image":"franziska.zander.jpeg"
+ },
+ {
   "name":"Sven Thiel",
   "position":"Developer",
   "address":{
