@@ -15,9 +15,11 @@
 				<a href="https://www.uni-jena.de/">Friedrich Schiller University of Jena</a>
 				<br/>
 				<br/>
-				<span>@2022 BEXIS2</span> <a href={base + '/imprint'}>Imprint</a>
+				<span>@2022 BEXIS 2</span> <a href={base + '/imprint'}>Imprint</a>
 			</Col>
-			<Col>
+			<Col xs=4>
+			</Col>
+			<Col xs=4>
 				<div class="text-end">
 					<img src="{base + '/images/dfg_logo_schriftzug_gray.png'}" alt="dfg_logo" width="300px"/>
 				</div>
@@ -28,17 +30,23 @@
 </footer>
 
 <style>
+
 	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 40px;
-		font-size: x-small;
+				flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    box-sizing: border-box;
+				font-size: x-small;
 	}
 
+
+
 	footer a {
-		color: gray;
+		/* color: gray; */
 	}
 
 	@media (min-width: 480px) {
