@@ -1,8 +1,12 @@
 <script>
 
+import newsJson from '../data/news.json';
 import { Row, Col} from 'sveltestrap';
 import Card from '$lib/components/Card.svelte'
 import { base } from '$app/paths';
+
+const reordered = newsJson.reverse();
+
 </script>
 
 
@@ -28,6 +32,21 @@ import { base } from '$app/paths';
    Manage your research data now. BEXIS is easy to run and simple to maintain. <a href="{base}/software/releases">Download the latest version </a> of BEXIS 2.
   </Card>
  </Col>
+ <Col xs=12 sm=12 md=12>
+    <Card title="News">
+        {#if reordered}
+            {#each reordered as news, i}
+
+                {#if i < 3}
+                    <div><a href="{base}/community/news/#{news.id}">[{news.date}] {news.title}</a></div>
+                {/if}
+
+            {/each}
+        {:else}
+            <p>Nothing to show...</p>
+            {/if}
+    </Card>
+   </Col>
 </Row>
 
 
