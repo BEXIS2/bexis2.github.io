@@ -5,7 +5,7 @@ import { Row, Col} from 'sveltestrap';
 import Card from '$lib/components/Card.svelte'
 import { base } from '$app/paths';
 
-const reordered = newsJson.reverse();
+const reordered = newsJson;
 
 </script>
 
