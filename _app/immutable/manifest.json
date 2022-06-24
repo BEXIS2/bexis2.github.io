@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-d0204615.js",
+    "file": "start-568c3195.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -15,7 +15,7 @@
       "src/routes/about/jobs.svelte",
       "src/routes/about/people.svelte",
       "src/routes/community/mailinglists.svelte",
-      "src/routes/community/news-overview.svelte",
+      "src/routes/community/news.svelte",
       "src/routes/community/partnersAndInstances.svelte",
       "src/routes/imprint.svelte",
       "src/routes/index.svelte",
@@ -30,7 +30,7 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-d9f20ffb.js",
+    "file": "pages/__layout.svelte-5f9d0a63.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -100,13 +100,21 @@
       "_index-f4bc5dab.js"
     ]
   },
-  "src/routes/community/news-overview.svelte": {
-    "file": "pages/community/news-overview.svelte-627cc3c1.js",
-    "src": "src/routes/community/news-overview.svelte",
+  "src/routes/community/news.svelte": {
+    "file": "pages/community/news.svelte-2fe4c93c.js",
+    "src": "src/routes/community/news.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-f4bc5dab.js"
+      "_index-f4bc5dab.js",
+      "_news-53ea2b40.js",
+      "_CardBody-e02f41f3.js",
+      "_utils-f9eb197c.js",
+      "_CardTitle-f7c2a191.js",
+      "_Row-29e0025b.js"
+    ],
+    "css": [
+      "assets/Offcanvas.svelte_svelte_type_style_lang-82c1b07d.css"
     ]
   },
   "src/routes/community/partnersAndInstances.svelte": {
@@ -134,17 +142,19 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-634f795e.js",
+    "file": "pages/index.svelte-ddb52f6b.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-f4bc5dab.js",
+      "_news-53ea2b40.js",
       "_Row-29e0025b.js",
-      "_Card-114d8a25.js",
+      "_Card-6822f6f4.js",
       "_paths-396f020f.js",
       "_utils-f9eb197c.js",
-      "_CardBody-e02f41f3.js"
+      "_CardBody-e02f41f3.js",
+      "_CardTitle-f7c2a191.js"
     ],
     "css": [
       "assets/pages/index.svelte-c06f13df.css",
@@ -205,17 +215,18 @@
     ]
   },
   "src/routes/software/features.svelte": {
-    "file": "pages/software/features.svelte-83a16990.js",
+    "file": "pages/software/features.svelte-64054984.js",
     "src": "src/routes/software/features.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-f4bc5dab.js",
       "_Row-29e0025b.js",
-      "_Card-114d8a25.js",
+      "_Card-6822f6f4.js",
       "_utils-f9eb197c.js",
       "_paths-396f020f.js",
-      "_CardBody-e02f41f3.js"
+      "_CardBody-e02f41f3.js",
+      "_CardTitle-f7c2a191.js"
     ],
     "css": [
       "assets/Offcanvas.svelte_svelte_type_style_lang-82c1b07d.css"
@@ -294,24 +305,35 @@
   "_utils-f9eb197c.js": {
     "file": "chunks/utils-f9eb197c.js"
   },
-  "_Card-114d8a25.js": {
-    "file": "chunks/Card-114d8a25.js",
-    "imports": [
-      "_index-f4bc5dab.js",
-      "_paths-396f020f.js",
-      "_CardBody-e02f41f3.js",
-      "_utils-f9eb197c.js"
-    ],
-    "css": [
-      "assets/Card-63f71418.css",
-      "assets/Offcanvas.svelte_svelte_type_style_lang-82c1b07d.css"
-    ]
+  "_news-53ea2b40.js": {
+    "file": "chunks/news-53ea2b40.js"
   },
   "_CardBody-e02f41f3.js": {
     "file": "chunks/CardBody-e02f41f3.js",
     "imports": [
       "_index-f4bc5dab.js",
       "_utils-f9eb197c.js"
+    ]
+  },
+  "_CardTitle-f7c2a191.js": {
+    "file": "chunks/CardTitle-f7c2a191.js",
+    "imports": [
+      "_index-f4bc5dab.js",
+      "_utils-f9eb197c.js"
+    ]
+  },
+  "_Card-6822f6f4.js": {
+    "file": "chunks/Card-6822f6f4.js",
+    "imports": [
+      "_index-f4bc5dab.js",
+      "_paths-396f020f.js",
+      "_CardBody-e02f41f3.js",
+      "_CardTitle-f7c2a191.js",
+      "_utils-f9eb197c.js"
+    ],
+    "css": [
+      "assets/Card-63f71418.css",
+      "assets/Offcanvas.svelte_svelte_type_style_lang-82c1b07d.css"
     ]
   },
   "_SvelteMarkdown-2081bc2c.js": {
