@@ -5,8 +5,6 @@ import { Row, Col} from 'sveltestrap';
 import Card from '$lib/components/Card.svelte'
 import { base } from '$app/paths';
 
-const reordered = newsJson;
-
 </script>
 
 
@@ -34,8 +32,8 @@ const reordered = newsJson;
  </Col>
  <Col xs=12 sm=12 md=12>
     <Card title="News">
-        {#if reordered}
-            {#each reordered as news, i}
+        {#if newsJson}
+            {#each newsJson as news, i}
 
                 {#if i < 3}
                     <div><a href="{base}/community/news/#{news.id}">[{news.date}] {news.title}</a></div>
