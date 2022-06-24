@@ -1,7 +1,7 @@
 [
  {
   "title":"Student Assistant Position",
-  "description":"<p>You are a student in computer science and interested in working in the interdisciplinary BExIS++ team as a research assistant while completing your studies?</p><p>Then there is a good opportunity for you to work as a developer, while practicing your subject of study, simultaneously. You’ll have the chance to gain some experience in software architectures, databases and programming. The workload will vary between 20 to 40 hours per month. Flexible hours are available all year round. For holiday season, we will find an individual solution for you. You should have at least some experience in object oriented programming, preferably in C#.NET to apply. Some literacy in English would be helpful too.</p>",
+  "description":"<p>Are you a student in computer science and interested in working in the interdisciplinary BEXIS2 team as a research assistant while completing your studies?</p><p>Then there is an excellent opportunity for you to work as a developer while simultaneously practicing your subject of study. You’ll have the chance to gain some experience in software architectures, databases, and programming. The workload will vary between 20 to 80 hours per month. Flexible hours are available all year round. For the holiday season, we will find an individual solution for you. We use C#.NET in our backend and are currently refactoring our UI using Svelte (https://svelte.dev/). </p><p>We are looking for support in the backend, frontend, in extending our APIs (e.g., implementation of SQL statements to calculate data quality parameters) or web design. </p>",
   "deadline":"",
   "external":"",
   "contact":{
