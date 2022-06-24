@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-e6a135db.js",
+    "file": "start-229ef188.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -101,13 +101,13 @@
     ]
   },
   "src/routes/community/news.svelte": {
-    "file": "pages/community/news.svelte-c0858ea9.js",
+    "file": "pages/community/news.svelte-a4a4e67e.js",
     "src": "src/routes/community/news.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-f4bc5dab.js",
-      "_news-21d26c10.js",
+      "_news-4b11878e.js",
       "_CardBody-e02f41f3.js",
       "_utils-f9eb197c.js",
       "_CardTitle-f7c2a191.js",
@@ -142,13 +142,13 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-207e503e.js",
+    "file": "pages/index.svelte-72c3263b.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-f4bc5dab.js",
-      "_news-21d26c10.js",
+      "_news-4b11878e.js",
       "_Row-29e0025b.js",
       "_Card-6822f6f4.js",
       "_paths-396f020f.js",
@@ -305,8 +305,8 @@
   "_utils-f9eb197c.js": {
     "file": "chunks/utils-f9eb197c.js"
   },
-  "_news-21d26c10.js": {
-    "file": "chunks/news-21d26c10.js"
+  "_news-4b11878e.js": {
+    "file": "chunks/news-4b11878e.js"
   },
   "_CardBody-e02f41f3.js": {
     "file": "chunks/CardBody-e02f41f3.js",
