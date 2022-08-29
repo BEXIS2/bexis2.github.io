@@ -36,13 +36,13 @@ export default {
 			default: true
 		},
 		vite: {
+			ssr: {
+				noExternal: ['@popperjs/core']
+			},
 			resolve: {
-						ssr: {
-							noExternal: ['@popperjs/core']
-						},
-			  alias: {
-						src: path.resolve('./src'),
-			  },
+				alias: {
+					src: path.resolve('./src'),
+			  	},
 			},
 			server: {
 			  fs: {
@@ -50,6 +50,5 @@ export default {
 			  },
 			},
 		  },
-
 	},
 };
