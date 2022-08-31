@@ -8,7 +8,7 @@ export default {
 			pages: 'build',
 			assets: 'build',
 			fallback: null,
-			prsecompress: false,
+			precompress: false,
 			sr: false
 		}),
 		paths: {
