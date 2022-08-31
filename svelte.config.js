@@ -1,14 +1,13 @@
+import adapter from '@sveltejs/adapter-auto';
 import path from 'path';
 
 export default {
 	kit: {
+		adapter: adapter(),
 		paths: {
-
 			base: process.env.NODE_ENV === 'production' ? '/bexis2-github-io' : '' ///bexis2-github-io/
-
-			//base: process.env.NODE_ENV === 'production' ? '' : ''
 		},
-		appDir: 'internal',
+		//appDir: 'internal',
 		trailingSlash: 'always',
 
 		// Build throws error for all links pointing to the backend. Therefor we need to exclude for checking the link during build.
