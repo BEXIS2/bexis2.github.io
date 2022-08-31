@@ -9,7 +9,7 @@ export default {
 			assets: 'build',
 			fallback: null,
 			prsecompress: false,
-			sr: false
+			ssr: false
 		}),
 		paths: {
 			base: process.env.NODE_ENV === 'production' ? '/bexis2-github-io' : '' ///bexis2-github-io/
