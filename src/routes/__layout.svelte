@@ -3,6 +3,8 @@
 	import Footer from '$lib/Footer.svelte';
 	import '../../static/bootstrap.min.css';
 	import '../app.css';
+	
+	export const prerender = true;
 </script>
 
 <Header />
