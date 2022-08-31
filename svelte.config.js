@@ -7,14 +7,14 @@ export default {
 			// default options are shown
 			pages: 'build',
 			assets: 'build',
-			fallback: 'index.html',
+			fallback: null,
 			prsecompress: false,
 			sr: false
 		}),
 		paths: {
 			base: process.env.NODE_ENV === 'production' ? '/bexis2-github-io' : '' ///bexis2-github-io/
+			//base: process.env.NODE_ENV === 'production' ? '' : ''
 		},
-		//appDir: 'internal',
 		trailingSlash: 'always',
 
 		// Build throws error for all links pointing to the backend. Therefor we need to exclude for checking the link during build.
@@ -34,19 +34,17 @@ export default {
 			default: true
 		},
 		vite: {
-			ssr: {
-				noExternal: ['@popperjs/core']
-			},
 			resolve: {
-				alias: {
-					src: path.resolve('./src'),
-			  	},
+			  alias: {
+				src: path.resolve('./src'),
+			  },
 			},
 			server: {
 			  fs: {
-				allow: [path.resolve('./static')],
+				allow: ['./static'],
 			  },
 			},
 		  },
+
 	},
 };
