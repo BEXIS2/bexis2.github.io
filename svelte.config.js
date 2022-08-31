@@ -8,6 +8,7 @@ export default {
 
 			//base: process.env.NODE_ENV === 'production' ? '' : ''
 		},
+		appDir: 'internal',
 		trailingSlash: 'always',
 
 		// Build throws error for all links pointing to the backend. Therefor we need to exclude for checking the link during build.
