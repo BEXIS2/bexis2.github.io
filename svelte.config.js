@@ -1,9 +1,16 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static';
 import path from 'path';
 
 export default {
 	kit: {
-		adapter: adapter(),
+		adapter: adapter({
+			// default options are shown
+			pages: 'build',
+			assets: 'build',
+			fallback: 'index.html',
+			prsecompress: false,
+			sr: false
+		}),
 		paths: {
 			base: process.env.NODE_ENV === 'production' ? '/bexis2-github-io' : '' ///bexis2-github-io/
 		},
