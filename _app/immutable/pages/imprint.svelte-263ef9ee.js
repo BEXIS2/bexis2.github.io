@@ -1,4 +1,4 @@
-import{S as N,i as O,s as Q,a as K,l as n,r as l,a0 as W,h as b,c as L,m as a,n as U,u as i,p as X,b as w,_ as e,E as C}from"../chunks/index-7a1e50c6.js";function Y(M){let o,t,c,d,f,h,m,u,_,p,R,B,v,I,E,J,P,g,x,S,T,y,D,k,q,z,A,F,G;return{c(){o=K(),t=n("div"),c=n("h1"),d=l("Imprint"),f=K(),h=n("h2"),m=l("Publisher and editorial office"),u=l(`
+import{S as N,i as O,s as Q,a as K,l as n,r as l,a0 as W,h as b,c as L,m as a,n as U,u as i,p as X,b as w,_ as e,E as C}from"../chunks/index-6ade26a0.js";function Y(M){let o,t,c,d,f,h,m,u,_,p,R,B,v,I,E,J,P,g,x,S,T,y,D,k,q,z,A,F,G;return{c(){o=K(),t=n("div"),c=n("h1"),d=l("Imprint"),f=K(),h=n("h2"),m=l("Publisher and editorial office"),u=l(`
 
 Prof. Dr. Birgitta K\xF6nig-Ries `),_=n("br"),p=l(`
 Friedrich-Schiller-Universit\xE4t Jena `),R=n("br"),B=l(`
