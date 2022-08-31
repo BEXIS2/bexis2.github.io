@@ -44,6 +44,10 @@ export default {
 				allow: ['./static'],
 			  },
 			},
+			
+      		ssr: {
+        		noExternal: ['@popperjs/core']
+  			}
 		  },
 
 	},
