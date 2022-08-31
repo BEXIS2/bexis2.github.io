@@ -44,7 +44,7 @@ export default {
 			},
 			server: {
 			  fs: {
-				allow: [path.resolve('./static'],
+				allow: [path.resolve('./static')],
 			  },
 			},
 		  },
