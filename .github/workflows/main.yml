@@ -33,7 +33,7 @@ jobs:
 
       - run: pnpm i
       - run: |
-          sed -i '/2\.11\.5/a \ \ "type": "module",' node_modules/@popperjs/core/package.json
+          sed -i '/2\.11\.6/a \ \ "type": "module",' node_modules/@popperjs/core/package.json
       - run: pnpm run build
 
       - name: Deploy
