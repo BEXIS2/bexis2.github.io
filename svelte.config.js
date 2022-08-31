@@ -47,7 +47,7 @@ export default {
 			
       		ssr: {
         		noExternal: ['@popperjs/core']
-  			}
+  			},
 		  },
 
 	},
