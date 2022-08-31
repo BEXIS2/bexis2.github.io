@@ -34,7 +34,7 @@
 		"@fortawesome/free-solid-svg-icons": "^6.1.1",
 		"@popperjs/core": "^2.11.6",
 		"@sveltejs/adapter-auto": "next",
-		"@sveltejs/adapter-static": "^1.0.0-next.34",
+		"@sveltejs/adapter-static": "^1.0.0-next.40",
 		"@sveltejs/kit": "1.0.0-next.347",
 		"svelte-markdown": "^0.2.2"
 	}
