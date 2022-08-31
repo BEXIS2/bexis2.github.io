@@ -38,7 +38,7 @@ jobs:
           cat node_modules/@popperjs/core/package.json
       - run: pnpm run build
       - run: dir
-      - run: cp -r static/ ./build/
+      - run: cp -a static/. ./build/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
