@@ -92,6 +92,14 @@
 						<DropdownItem href={base + '/community/news'}>News</DropdownItem>
 						</DropdownMenu>
 				</Dropdown>
+				<Dropdown nav inNavbar>
+					<DropdownToggle nav caret>Knowledge Base</DropdownToggle>
+					<DropdownMenu end>
+						<DropdownItem href={base + '/knowledgebase/requirements'}>System Requirements</DropdownItem>
+						<DropdownItem href={base + '/knowledgebase/featurelist'}>All Features</DropdownItem>
+						<DropdownItem href={base + '/knowledgebase/glossary'}>Glossary</DropdownItem>
+						</DropdownMenu>
+				</Dropdown>
 
 				<Dropdown nav inNavbar>
 					<DropdownToggle nav caret>About</DropdownToggle>
