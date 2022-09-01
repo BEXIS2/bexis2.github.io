@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-dd727862.js",
+    "file": "start-bcc751b6.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -19,6 +19,9 @@
       "src/routes/community/partnersAndInstances.svelte",
       "src/routes/imprint.svelte",
       "src/routes/index.svelte",
+      "src/routes/knowledgebase/featurelist.svelte",
+      "src/routes/knowledgebase/glossary.svelte",
+      "src/routes/knowledgebase/requirements.svelte",
       "src/routes/resources/install.svelte",
       "src/routes/resources/manuals.svelte",
       "src/routes/resources/publications.svelte",
@@ -30,7 +33,7 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-a884bc06.js",
+    "file": "pages/__layout.svelte-2168b429.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -159,6 +162,34 @@
     "css": [
       "assets/pages/index.svelte-c06f13df.css",
       "assets/Offcanvas.svelte_svelte_type_style_lang-82c1b07d.css"
+    ]
+  },
+  "src/routes/knowledgebase/featurelist.svelte": {
+    "file": "pages/knowledgebase/featurelist.svelte-a49eae70.js",
+    "src": "src/routes/knowledgebase/featurelist.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-6ade26a0.js",
+      "_SvelteMarkdown-5ed5c8ed.js"
+    ]
+  },
+  "src/routes/knowledgebase/glossary.svelte": {
+    "file": "pages/knowledgebase/glossary.svelte-ed6cf49a.js",
+    "src": "src/routes/knowledgebase/glossary.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-6ade26a0.js"
+    ]
+  },
+  "src/routes/knowledgebase/requirements.svelte": {
+    "file": "pages/knowledgebase/requirements.svelte-d4f4a7f8.js",
+    "src": "src/routes/knowledgebase/requirements.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-6ade26a0.js"
     ]
   },
   "src/routes/resources/install.svelte": {
