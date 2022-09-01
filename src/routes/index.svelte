@@ -5,6 +5,9 @@ import { Row, Col} from 'sveltestrap';
 import Card from '$lib/components/Card.svelte'
 import { base } from '$app/paths';
 
+let result = newsJson.sort((a,b)=> new Date(a.date).getTime() - 
+new Date(b.date).getTime());
+	
 </script>
 
 
@@ -33,7 +36,7 @@ import { base } from '$app/paths';
  <Col xs=12 sm=12 md=12>
     <Card title="News">
         {#if newsJson}
-            {#each newsJson as news, i}
+            {#each result as news, i}
 
                 {#if i < 3}
                     <div><a href="{base}/community/news/#{news.id}">[{news.date}] {news.title}</a></div>
