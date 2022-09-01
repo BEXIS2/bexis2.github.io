@@ -19,5 +19,19 @@
     "author": "Sven Thiel",
     "date": "2021/05/17",
     "content": "<p>From the home office we send greetings and wish good health. To make the challenging time a little more bearable, we send besides the greetings also a patch for BEXIS 2 that you should not miss.</p><p>Attention! changes have been made in SMTP credentials and web.config. If an update is made, please use the new files and adapt them.</p><p>BEXIS 2.14.4 is now available on our github page: <a href=\"https://bexis2.github.io/bexis2-github-io/software/releases/#2.14.4\">here</a>."
+  },
+  {
+    "id": 3,
+    "title": "BEXIS2 Release - 2.14.6",
+    "author": "David Schöne",
+    "date": "2022/06/30",
+    "content": "<p>BEXIS 2.14.6 is now available on our github page: <a href=\"https://bexis2.github.io/bexis2-github-io/software/releases/#2.14.6\">here</a>."
+  },
+  {
+    "id": 4,
+    "title": "BEXIS2 Release - 2.15",
+    "author": "David Schöne",
+    "date": "2022/08/25",
+    "content": "<p>even though the sun is shining outside, we have continued to work. :D So we can release the new version earlier than expected.</p><p>BEXIS 2.15 is now available on our github page: <a href=\"https://bexis2.github.io/bexis2-github-io/software/releases/#2.15\">here</a>."
   }
 ]
