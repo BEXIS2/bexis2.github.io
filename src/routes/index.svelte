@@ -6,7 +6,7 @@ import Card from '$lib/components/Card.svelte'
 import { base } from '$app/paths';
 
 let result = newsJson.sort((a,b)=> new Date(a.date).getTime() - 
-new Date(b.date).getTime());
+new Date(b.date).getTime()).reverse();
 	
 </script>
 
