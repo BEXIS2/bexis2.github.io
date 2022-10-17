@@ -5,6 +5,15 @@
 
  import ImageLinkList from '$lib/components/ImageLinkList.svelte'
 
+
+	instancesJson.sort(function (a, b) {
+    return a.title.localeCompare(b.title);
+ });
+
+	projectsJson.sort(function (a, b) {
+    return a.title.localeCompare(b.title);
+ });
+
 	</script>
 
 <svelte:head>
