@@ -36,6 +36,7 @@
 		"@sveltejs/adapter-static": "next",
 		"@sveltejs/kit": "next",
 		"bibtex-parse": "^2.1.0",
-		"svelte-markdown": "^0.2.2"
+		"svelte-markdown": "^0.2.2",
+		"vite": "^3.0.0"
 	}
 }
