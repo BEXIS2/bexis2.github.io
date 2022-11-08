@@ -1,31 +1,30 @@
 [
- {
-  "title":"Party Administration",
-  "url":"https://raw.githubusercontent.com/BEXIS2/Documents/master/Manuals/BAM/Manual.md"
- },
- {
-  "title":"Data Collection",
-  "url":"https://raw.githubusercontent.com/BEXIS2/Documents/master/Manuals/DCM/Manual.md"
- },
- {
-  "title":"Data Discovery",
-  "url":"https://raw.githubusercontent.com/BEXIS2/Documents/master/Manuals/DDM/DataDiscovery_Manual.md"
- },
- {
-  "title":"Data Dissemination",
-  "url":"https://raw.githubusercontent.com/BEXIS2/Documents/master/Manuals/DIM/Manual.md"
- },
- {
-  "title":"Data Planing",
-  "url":"https://raw.githubusercontent.com/BEXIS2/Documents/master/Manuals/RPM/Manual.md"
- },
- {
-  "title":"User and Permission management",
-  "url":"https://raw.githubusercontent.com/BEXIS2/Documents/master/Manuals/SAM/Manual.md"
- },
- {
-  "title":"Visualization",
-  "url":"https://raw.githubusercontent.com/BEXIS2/Documents/master/Manuals/VIM/Manual.md"
- }
+	{
+		"title": "Party Administration",
+		"url": "https://raw.githubusercontent.com/BEXIS2/Documents/master/Manuals/BAM/Manual.md"
+	},
+	{
+		"title": "Data Collection",
+		"url": "https://raw.githubusercontent.com/BEXIS2/Documents/master/Manuals/DCM/Manual.md"
+	},
+	{
+		"title": "Data Discovery",
+		"url": "https://raw.githubusercontent.com/BEXIS2/Documents/master/Manuals/DDM/DataDiscovery_Manual.md"
+	},
+	{
+		"title": "Data Dissemination",
+		"url": "https://raw.githubusercontent.com/BEXIS2/Documents/master/Manuals/DIM/Manual.md"
+	},
+	{
+		"title": "Data Planing",
+		"url": "https://raw.githubusercontent.com/BEXIS2/Documents/master/Manuals/RPM/Manual.md"
+	},
+	{
+		"title": "User and Permission management",
+		"url": "https://raw.githubusercontent.com/BEXIS2/Documents/master/Manuals/SAM/Manual.md"
+	},
+	{
+		"title": "Visualization",
+		"url": "https://raw.githubusercontent.com/BEXIS2/Documents/master/Manuals/VIM/Manual.md"
+	}
 ]
- 

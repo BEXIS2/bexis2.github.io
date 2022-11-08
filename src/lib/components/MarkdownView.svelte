@@ -1,35 +1,32 @@
 <script>
+	import { onMount } from 'svelte';
+	import SvelteMarkdown from 'svelte-markdown';
+	export let url = '';
 
-import {onMount} from 'svelte'
-import SvelteMarkdown from 'svelte-markdown'
-export let url="";
+	$: file = null;
 
-$:file = null;
+	onMount(() => {
+		load();
+	});
 
-onMount(()=>{
- load();
-})
-
-async function load()
-{
-  const response = await fetch(url);
-  file = response.ok && (await response.text())
-}
-
+	async function load() {
+		const response = await fetch(url);
+		file = response.ok && (await response.text());
+	}
 </script>
 
 {#if file}
-  <!-- content here -->
-  <div class="markdown-container">
-   <SvelteMarkdown source={file}  />
-  </div>
+	<!-- content here -->
+	<div class="markdown-container">
+		<SvelteMarkdown source={file} />
+	</div>
 {:else}
-  <!-- else content here -->
-  <b>...loading</b>
+	<!-- else content here -->
+	<b>...loading</b>
 {/if}
 
 <style>
- .markdown-container{
-  /* padding-top: 2em; */
- }
+	.markdown-container {
+		/* padding-top: 2em; */
+	}
 </style>

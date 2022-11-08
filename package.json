@@ -2,11 +2,10 @@
 	"name": "micoda",
 	"version": "0.0.1",
 	"scripts": {
-		"dev": "svelte-kit dev",
-		"build": "svelte-kit build",
+		"dev": "vite dev",
+		"build": "vite build",
 		"package": "svelte-kit package",
 		"preview": "svelte-kit preview",
-		"prepare": "svelte-kit sync",
 		"test": "playwright test",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
@@ -34,8 +33,8 @@
 		"@fortawesome/free-solid-svg-icons": "^6.1.1",
 		"@popperjs/core": "^2.11.6",
 		"@sveltejs/adapter-auto": "next",
-		"@sveltejs/adapter-static": "^1.0.0-next.40",
-		"@sveltejs/kit": "1.0.0-next.347",
+		"@sveltejs/adapter-static": "next",
+		"@sveltejs/kit": "next",
 		"bibtex-parse": "^2.1.0",
 		"svelte-markdown": "^0.2.2"
 	}

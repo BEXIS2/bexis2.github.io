@@ -1,5 +1,4 @@
 import adapter from '@sveltejs/adapter-static';
-import path from 'path';
 
 export default {
 	kit: {
@@ -7,7 +6,7 @@ export default {
 			// default options are shown
 			pages: 'build',
 			assets: 'build',
-			 fallback: '200.html',
+			fallback: '200.html',
 			prsecompress: false,
 			ssr: false
 		}),
@@ -19,7 +18,7 @@ export default {
 
 		// Build throws error for all links pointing to the backend. Therefor we need to exclude for checking the link during build.
 		prerender: {
-			onError: ({ status, path, referrer, referenceType }) => {
+			handleHttpError: ({ status, path, referrer, referenceType }) => {
 				if (path.startsWith('/backend/') || path.startsWith('/images/') || path == '/') {
 					//do nothing as it links to backend
 				} else {
@@ -30,25 +29,7 @@ export default {
 					);
 				}
 				console.warn(`${status} ${path}${referrer ? ` (${referenceType} from ${referrer})` : ''}`);
-			},
-			default: true
-		},
-		vite: {
-			resolve: {
-			  alias: {
-				src: path.resolve('./src'),
-			  },
-			},
-			server: {
-			  fs: {
-				allow: ['./static'],
-			  },
-			},
-			
-      		ssr: {
-        		noExternal: ['@popperjs/core']
-  			},
-		  },
-
-	},
+			}
+		}
+	}
 };

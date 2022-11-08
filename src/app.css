@@ -13,10 +13,9 @@
 	--column-width: 100rem;
 	--column-margin-top: 0rem;
 
-	--hover-color:#eee;
+	--hover-color: #eee;
 
 	--bs-primary: var(--accent-color);
-
 }
 
 body {
@@ -146,26 +145,26 @@ hr {
 }
 
 /*override Bootstrap*/
-.nav-pills .nav-link{
+.nav-pills .nav-link {
 	border-left: 2px solid white;
 	border-radius: 0%;
 	color: var(--text-color);
 }
 
 /*override Bootstrap*/
-.nav-pills .nav-link.active{
+.nav-pills .nav-link.active {
 	border-left: 2px solid var(--bs-primary);
 	background-color: white;
 	color: var(--text-color);
 }
 
-.nav-pills .nav-link:hover{
+.nav-pills .nav-link:hover {
 	border-left: 2px solid var(--bs-primary);
-	background-color:  var(--hover-color);
+	background-color: var(--hover-color);
 	color: var(--text-color);
 }
 
-.dropdown-item:active{
+.dropdown-item:active {
 	background-color: var(--hover);
- color:var(--text-color);
+	color: var(--text-color);
 }

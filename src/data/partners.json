@@ -1,24 +1,22 @@
 [
- {
-  "title":"uni-jena",
-  "url":"https://www.uni-jena.de/",
-  "image":"uni-jena.jpg"
- },
- {
-  "title":"uni göttingen",
-  "url":"https://www.uni-goettingen.de/",
-  "image":"Partner_Logo_Goettingen.png"
- },
- {
-  "title":"gwdg",
-  "url":"https://www.gwdg.de/",
-  "image":"Partner_Logo_GWDG.png"
- },
- {
-  "title":"TUM",
-  "url":"https://www.tum.de",
-  "image":"Partner_Logo_TUM.gif"
- }
+	{
+		"title": "uni-jena",
+		"url": "https://www.uni-jena.de/",
+		"image": "uni-jena.jpg"
+	},
+	{
+		"title": "uni göttingen",
+		"url": "https://www.uni-goettingen.de/",
+		"image": "Partner_Logo_Goettingen.png"
+	},
+	{
+		"title": "gwdg",
+		"url": "https://www.gwdg.de/",
+		"image": "Partner_Logo_GWDG.png"
+	},
+	{
+		"title": "TUM",
+		"url": "https://www.tum.de",
+		"image": "Partner_Logo_TUM.gif"
+	}
 ]
-
- 

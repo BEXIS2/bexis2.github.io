@@ -1,5 +1,5 @@
 <script>
-import Cite from "./Cite.svelte";
+	import Cite from './Cite.svelte';
 
 	export let TITLE = '';
 	export let AUTHORS = '';
@@ -15,35 +15,51 @@ import Cite from "./Cite.svelte";
 
 	let expand = false;
 
-	
-
-	let citeText="@"+TYPE.replace(" ","").toLowerCase()+"{"+key+","
-	+"<br>&nbsp title:"+TITLE+","
-	+"<br>&nbsp author:"+AUTHORS+","
-	+"<br>&nbsp source:"+SOURCE+","
-	+"<br>&nbsp place:"+PLACE+","
-	+"<br>&nbsp date:"+DATE+","
-	+"<br>&nbsp year:"+YEAR+","
-	+"<br>&nbsp type:"+TYPE+","
-	+"<br>&nbsp abstract:"+ABSTRACT
-	+"<br>}";
-
-
+	let citeText =
+		'@' +
+		TYPE.replace(' ', '').toLowerCase() +
+		'{' +
+		key +
+		',' +
+		'<br>&nbsp title:' +
+		TITLE +
+		',' +
+		'<br>&nbsp author:' +
+		AUTHORS +
+		',' +
+		'<br>&nbsp source:' +
+		SOURCE +
+		',' +
+		'<br>&nbsp place:' +
+		PLACE +
+		',' +
+		'<br>&nbsp date:' +
+		DATE +
+		',' +
+		'<br>&nbsp year:' +
+		YEAR +
+		',' +
+		'<br>&nbsp type:' +
+		TYPE +
+		',' +
+		'<br>&nbsp abstract:' +
+		ABSTRACT +
+		'<br>}';
 </script>
+
 {#if expand}
-	
 	<!-- content here -->
 	<div class="publication-view" on:click={() => (expand = !expand)}>
 		<h2>{TITLE}</h2>
 		<h3>{AUTHORS}</h3>
-		<Cite citeText={citeText}></Cite>
+		<Cite {citeText} />
 		<i>{SOURCE}, {PLACE}, {DATE}</i>
 		<div class="abstract">{@html ABSTRACT}</div>
 		<b>{TYPE}</b>
 		{#if URL != ''}
 			: <a href={URL} target="blank">{NAME}</a>
 		{/if}
-		
+
 		<br />
 		<br />
 	</div>
@@ -51,12 +67,13 @@ import Cite from "./Cite.svelte";
 	<!-- else content here -->
 	<div class="publication-preview" on:click={() => (expand = !expand)}>
 		<h2>{TITLE}</h2>
-		<h3>{AUTHORS} </h3>
-		<Cite citeText={citeText}></Cite>
+		<h3>{AUTHORS}</h3>
+		<Cite {citeText} />
 		<i>{SOURCE}, {PLACE}, {DATE}</i>
 		<div class="abstract preview">{@html ABSTRACT}</div>
 	</div>
 {/if}
+
 <style>
 	.publication-view,
 	.publication-preview {
@@ -88,5 +105,4 @@ import Cite from "./Cite.svelte";
 		text-overflow: ellipsis;
 		-webkit-line-clamp: 2;
 	}
-
 </style>
