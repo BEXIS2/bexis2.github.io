@@ -1,0 +1,1 @@
+async function s(){const e=await fetch("https://api.github.com/repos/BEXIS2/Core/milestones");console.log("load milestones");let o=(e.ok&&await e.json()).filter(t=>t.due_on!=null);return console.log(o),{status:e.status,milestones:o}}const a=Object.freeze(Object.defineProperty({__proto__:null,load:s},Symbol.toStringTag,{value:"Module"}));export{a as _,s as l};

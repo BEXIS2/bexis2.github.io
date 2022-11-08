@@ -1,0 +1,1 @@
+async function s(){const e=await fetch("https://api.github.com/repos/BEXIS2/Core/releases");return console.log("load releases"),{status:e.status,bexis2releases:await e.json()}}const o=Object.freeze(Object.defineProperty({__proto__:null,load:s},Symbol.toStringTag,{value:"Module"}));export{o as _,s as l};
