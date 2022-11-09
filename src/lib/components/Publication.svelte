@@ -52,7 +52,7 @@
 	<div class="publication-view" on:click={() => (expand = !expand)}>
 		<h2>{TITLE}</h2>
 		<h3>{AUTHORS}</h3>
-		<Cite {citeText} />
+		<!--<Cite {citeText} />-->
 		<i>{SOURCE}, {PLACE}, {DATE}</i>
 		<div class="abstract">{@html ABSTRACT}</div>
 		<b>{TYPE}</b>
@@ -68,7 +68,7 @@
 	<div class="publication-preview" on:click={() => (expand = !expand)}>
 		<h2>{TITLE}</h2>
 		<h3>{AUTHORS}</h3>
-		<Cite {citeText} />
+		<!--<Cite {citeText} />-->
 		<i>{SOURCE}, {PLACE}, {DATE}</i>
 		<div class="abstract preview">{@html ABSTRACT}</div>
 	</div>

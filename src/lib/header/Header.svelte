@@ -53,7 +53,7 @@
 			<Nav class="ms-auto" navbar>
 				<NavItem>
 					<!-- <li class="nav-item" class:active={$page.url.pathname === base + '/'}> -->
-					<a sveltekit:prefetch href={base + '/'} class="nav-link">Home</a>
+					<a data-sveltekit-prefetch href={base + '/'} class="nav-link">Home</a>
 					<!-- </li> -->
 				</NavItem>
 
