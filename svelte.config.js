@@ -6,9 +6,11 @@ export default {
 			// default options are shown
 			pages: 'build',
 			assets: 'build',
-			fallback: '200.html',
+		//	fallback: '200.html',
+			fallback: null,
 			prsecompress: false,
-			ssr: false
+			// ssr: false,
+			strict: false,
 		}),
 		paths: {
 			//base: process.env.NODE_ENV === 'production' ? '/bexis2-github-io' : '' ///bexis2-github-io/
