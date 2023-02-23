@@ -16,7 +16,7 @@ export default {
 			//base: process.env.NODE_ENV === 'production' ? '/bexis2-github-io' : '' ///bexis2-github-io/
 			//base: process.env.NODE_ENV === 'production' ? '' : ''
 		},
-		trailingSlash: 'always',
+		//trailingSlash: 'always',
 
 		// Build throws error for all links pointing to the backend. Therefor we need to exclude for checking the link during build.
 		prerender: {
