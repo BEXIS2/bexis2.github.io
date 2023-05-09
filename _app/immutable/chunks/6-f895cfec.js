@@ -1,1 +1,0 @@
-import{default as t}from"../components/pages/community/mailinglists/_page.svelte-10ae96c2.js";export{t as component};
