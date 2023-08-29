@@ -1,6 +1,6 @@
 {
   ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-791f7fd3.js",
+    "file": "_app/immutable/chunks/0-29a0d3b4.js",
     "imports": [
       "__layout-7e4796dc.js",
       "src/routes/+layout.svelte"
@@ -68,7 +68,7 @@
     "src": ".svelte-kit/generated/nodes/15.js"
   },
   ".svelte-kit/generated/nodes/16.js": {
-    "file": "_app/immutable/chunks/16-6fadf08f.js",
+    "file": "_app/immutable/chunks/16-556aa373.js",
     "imports": [
       "src/routes/resources/techtalks/+page.svelte"
     ],
@@ -76,7 +76,7 @@
     "src": ".svelte-kit/generated/nodes/16.js"
   },
   ".svelte-kit/generated/nodes/17.js": {
-    "file": "_app/immutable/chunks/17-9a4440d2.js",
+    "file": "_app/immutable/chunks/17-f45c7c28.js",
     "imports": [
       "src/routes/software/features/+page.svelte"
     ],
@@ -102,7 +102,7 @@
     "src": ".svelte-kit/generated/nodes/19.js"
   },
   ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-72352792.js",
+    "file": "_app/immutable/chunks/2-5bd7dcd9.js",
     "imports": [
       "src/routes/+page.svelte"
     ],
@@ -119,7 +119,7 @@
     "src": ".svelte-kit/generated/nodes/20.js"
   },
   ".svelte-kit/generated/nodes/3.js": {
-    "file": "_app/immutable/chunks/3-3ec5754b.js",
+    "file": "_app/immutable/chunks/3-78dc3360.js",
     "imports": [
       "src/routes/about/contactus/+page.svelte"
     ],
@@ -143,7 +143,7 @@
     "src": ".svelte-kit/generated/nodes/5.js"
   },
   ".svelte-kit/generated/nodes/6.js": {
-    "file": "_app/immutable/chunks/6-c0b5e308.js",
+    "file": "_app/immutable/chunks/6-8911e82c.js",
     "imports": [
       "src/routes/community/mailinglists/+page.svelte"
     ],
@@ -151,7 +151,7 @@
     "src": ".svelte-kit/generated/nodes/6.js"
   },
   ".svelte-kit/generated/nodes/7.js": {
-    "file": "_app/immutable/chunks/7-e8d11e03.js",
+    "file": "_app/immutable/chunks/7-2c1d1477.js",
     "imports": [
       "src/routes/community/news/+page.svelte"
     ],
@@ -269,8 +269,8 @@
       "_index-0caa4f34.js"
     ]
   },
-  "_news-7235c4a8.js": {
-    "file": "_app/immutable/chunks/news-7235c4a8.js"
+  "_news-ceed2862.js": {
+    "file": "_app/immutable/chunks/news-ceed2862.js"
   },
   "_paths-b4419565.js": {
     "file": "_app/immutable/chunks/paths-b4419565.js"
@@ -306,7 +306,7 @@
       ".svelte-kit/generated/nodes/19.js",
       ".svelte-kit/generated/nodes/20.js"
     ],
-    "file": "_app/immutable/start-a2d55c43.js",
+    "file": "_app/immutable/start-9b890bf4.js",
     "imports": [
       "_index-0caa4f34.js",
       "_singletons-703e3955.js",
@@ -340,7 +340,7 @@
     "css": [
       "_app/immutable/assets/_layout-6af8d3e5.css"
     ],
-    "file": "_app/immutable/components/pages/_layout.svelte-6778a477.js",
+    "file": "_app/immutable/components/pages/_layout.svelte-0a5c9328.js",
     "imports": [
       "_index-0caa4f34.js",
       "_paths-b4419565.js",
@@ -360,10 +360,10 @@
     "css": [
       "_app/immutable/assets/_page-76de20ea.css"
     ],
-    "file": "_app/immutable/components/pages/_page.svelte-c629c94b.js",
+    "file": "_app/immutable/components/pages/_page.svelte-2c1a9c7d.js",
     "imports": [
       "_index-0caa4f34.js",
-      "_news-7235c4a8.js",
+      "_news-ceed2862.js",
       "_Row-829946ad.js",
       "_Offcanvas.svelte_svelte_type_style_lang-b454e775.js",
       "_Card-f28b9214.js",
@@ -373,7 +373,7 @@
     "src": "src/routes/+page.svelte"
   },
   "src/routes/about/contactus/+page.svelte": {
-    "file": "_app/immutable/components/pages/about/contactus/_page.svelte-cab120a1.js",
+    "file": "_app/immutable/components/pages/about/contactus/_page.svelte-585706dc.js",
     "imports": [
       "_index-0caa4f34.js",
       "_paths-b4419565.js"
@@ -408,7 +408,7 @@
     "src": "src/routes/about/people/+page.svelte"
   },
   "src/routes/community/mailinglists/+page.svelte": {
-    "file": "_app/immutable/components/pages/community/mailinglists/_page.svelte-37276609.js",
+    "file": "_app/immutable/components/pages/community/mailinglists/_page.svelte-87cfe9e5.js",
     "imports": [
       "_index-0caa4f34.js"
     ],
@@ -416,10 +416,10 @@
     "src": "src/routes/community/mailinglists/+page.svelte"
   },
   "src/routes/community/news/+page.svelte": {
-    "file": "_app/immutable/components/pages/community/news/_page.svelte-e7fcba37.js",
+    "file": "_app/immutable/components/pages/community/news/_page.svelte-63f8c86c.js",
     "imports": [
       "_index-0caa4f34.js",
-      "_news-7235c4a8.js",
+      "_news-ceed2862.js",
       "_CardBody-f6a84a68.js",
       "_Offcanvas.svelte_svelte_type_style_lang-b454e775.js",
       "_CardTitle-39755612.js",
@@ -538,7 +538,7 @@
     "src": "src/routes/resources/publications/+page.svelte"
   },
   "src/routes/resources/techtalks/+page.svelte": {
-    "file": "_app/immutable/components/pages/resources/techtalks/_page.svelte-a5b6a188.js",
+    "file": "_app/immutable/components/pages/resources/techtalks/_page.svelte-1a858d5a.js",
     "imports": [
       "_index-0caa4f34.js",
       "_Row-829946ad.js",
@@ -548,7 +548,7 @@
     "src": "src/routes/resources/techtalks/+page.svelte"
   },
   "src/routes/software/features/+page.svelte": {
-    "file": "_app/immutable/components/pages/software/features/_page.svelte-0d615d05.js",
+    "file": "_app/immutable/components/pages/software/features/_page.svelte-5b9ca90f.js",
     "imports": [
       "_index-0caa4f34.js",
       "_Row-829946ad.js",
