@@ -4,14 +4,14 @@
 </script>
 
 <svelte:head>
-	<title>BEXIS 2 Tech Talk Series</title>
+	<title>BEXIS2 Tech Talk Series</title>
 </svelte:head>
 
 <div class="content">
-	<h2>BEXIS 2 Tech Talk Series</h2>
+	<h2>BEXIS2 Tech Talk Series</h2>
 
 	<p>
-		The idea of this series of talks is to gather the knowledge needed to develop the BEXIS 2 data
+		The idea of this series of talks is to gather the knowledge needed to develop the BEXIS2 data
 		management platform. So the talks are geared towards software engineers and developers.
 	</p>
 	<p>The talks are available from the Digital Library Thuringia and on Youtube:</p>
@@ -40,7 +40,7 @@
 		</Col>
 		<Col>
 			<TechTalk
-				title="#5 The Extensibility of BEXIS 2 (09/06/2016)"
+				title="#5 The Extensibility of BEXIS2 (09/06/2016)"
 				url="https://www.youtube.com/embed/sLTAmQLTSBA"
 				slides="http://de.slideshare.net/JavadChamanara/5-bexis-extensibility"
 			/>

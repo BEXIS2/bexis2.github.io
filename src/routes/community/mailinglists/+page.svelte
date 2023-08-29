@@ -4,7 +4,7 @@
 
 <h2>Mailing Lists</h2>
 <p>
-	You are most welcome to join our mailing lists For any further discussion on BEXIS 2. Both lists
+	You are most welcome to join our mailing lists For any further discussion on BEXIS2. Both lists
 	are archived at mail-archive.com, so all posts are public and searchable. We invite you not only
 	to subscribe, but also to actively contribute and to respond whenever you are able to.
 </p>
@@ -16,8 +16,8 @@
 >
 
 <p>
-	If you are a user, data manager or administrator of a BEXIS 2 instance and have a question related
-	to the usage or configuration of BEXIS 2, then this is the list to post it.
+	If you are a user, data manager or administrator of a BEXIS2 instance and have a question related
+	to the usage or configuration of BEXIS2, then this is the list to post it.
 </p>
 
 <h2>Mailing List for Developers</h2>
@@ -27,7 +27,7 @@
 >
 
 <p>
-	Use the above list for all topics related to the development of the BEXIS 2 software. So this is
+	Use the above list for all topics related to the development of the BEXIS2 software. So this is
 	the place for technical discussions on concepts, software architecture, features, and any type of
 	change request or bug.
 </p>

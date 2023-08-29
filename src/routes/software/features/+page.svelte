@@ -12,13 +12,13 @@
 <h2>Features</h2>
 
 <p>
-	BEXIS 2 is a free and open source software (LGPL 3.0) supporting researchers in managing their
+	BEXIS2 is a free and open source software (LGPL 3.0) supporting researchers in managing their
 	data throughout the entire data life cycle from data collection, documentation, processing,
 	analyzing, to sharing and publishing research data.
 </p>
 
 <p>
-	BEXIS 2 is a modular scalable platform suitable for working groups and collaborative project
+	BEXIS2 is a modular scalable platform suitable for working groups and collaborative project
 	consortia with up to several hundred researchers. It has been designed to meet the requirements of
 	researchers in the field of biodiversity, but it is generic enough to serve other communities as
 	well.

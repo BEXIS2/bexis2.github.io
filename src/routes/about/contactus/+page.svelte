@@ -10,7 +10,7 @@
 
 <h3>Contact Information</h3>
 <p>
-	If you have any questions related to the usage or the development of BEXIS 2, please join our <a
+	If you have any questions related to the usage or the development of BEXIS2, please join our <a
 		href={base + '/community/mailinglists'}>mailing lists</a
 	>. <br />
 	Contact us at <b>bexis-support@uni-jena.de</b> if you have any further questions or suggestions.
