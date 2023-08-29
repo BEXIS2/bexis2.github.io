@@ -1,5 +1,21 @@
 [
 	{
+		"name": "Roman Gerlach",
+		"position": "Project Coordinator",
+		"address": "",
+		"phone": "",
+		"mail": "roman.gerlach@uni-jena.de",
+		"image": "roman-gerlach.png"
+	},
+	{
+		"name": "Dr. Jitendra Gaikwad",
+		"position": "Community Manager",
+		"address": "",
+		"phone": "",
+		"mail": "",
+		"image": "jitendra.jpg"
+	},
+	{
 		"name": "Dr. Javad Chamanara",
 		"position": "System Architect",
 		"address": "",
