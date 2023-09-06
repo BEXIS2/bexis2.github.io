@@ -7,7 +7,7 @@
 	<div>
 		<hr />
 		<Row>
-			<Col xs="4">
+			<Col xs="3">
 				<a href="https://www.fusion.uni-jena.de/"
 					>FUSION: Heinz-Nixdorf Endowed Chair for Distributed Information Systems</a
 				>
@@ -17,11 +17,9 @@
 				<br />
 				<span>@2023 BEXIS2</span> <a href={base + '/imprint'}>Imprint</a>
 			</Col>
+			<Col xs="1"></Col>
 			<Col xs="8">
-				<div class="text-left">
-					This work was supported by the German Research Foundation (DFG) within the project “Establishment of the National Research Data Infrastructure (NFDI)” in the consortium NFDI4Biodiversity (project number 442032008).
-				</div>
-				<Row style="padding-top:10px">
+				<Row style="padding-bottom:10px">
 					<Col xs="6">
 						<div>
 							<img src={base + '/images/dfg_logo_schriftzug_gray.png'} alt="dfg_logo" width="300px" />
@@ -33,6 +31,9 @@
 						</div>
 					</Col>
 				</Row>
+				<div class="text-end">
+					This work was supported by the German Research Foundation (DFG) within the project “Establishment of the National Research Data Infrastructure (NFDI)” in the consortium NFDI4Biodiversity (project number 442032008).
+				</div>
 			</Col>
 			
 		</Row>
