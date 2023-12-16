@@ -75,5 +75,27 @@
 		"author": "Franziska Zander",
 		"date": "2023/07/19",
 		"content": "<p>Presentation in German. Click <a href=\"https://www.youtube.com/watch?v=TtLm_1mf3LU\">here</a> to watch it.</p>"
+	},
+	{
+		"id": 11,
+		"title": "BEXIS2 Release - 2.18.1",
+		"author": "Franziska Zander",
+		"date": "2023/06/28",
+		"content": "<p>Hi y'all, we are glad to inform you that we have released the new version 2.18.1 of BEXIS2.</p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases/#2.18.1\">here</a> for more details.</p>"
+	},
+	{
+		"id": 9,
+		"title": "BEXIS2 Release - 2.18.2",
+		"author": "Franziska Zander",
+		"date": "2023/09/26",
+		"content": "<p>Hi y'all, we are glad to inform you that we have released the new version 2.18.2 of BEXIS2.</p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases/#2.18.2\">here</a> for more details.</p>"
+	},
+	,
+	{
+		"id": 9,
+		"title": "BEXIS2 Release - 3.0.0-beta",
+		"author": "Franziska Zander",
+		"date": "2023/12/22",
+		"content": "<p>Hi y'all, we are glad to inform you that we have released the new version 3.0.0-beta of BEXIS2.</p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases/#3.0.0-beta\">here</a> for more details.</p>"
 	}
 ]
