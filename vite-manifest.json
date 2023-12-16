@@ -11,7 +11,7 @@
   ".svelte-kit/generated/nodes/1.js": {
     "file": "_app/immutable/chunks/1-73ec42a6.js",
     "imports": [
-      "node_modules/.pnpm/@sveltejs+kit@1.0.0-next.589_svelte@3.44.0+vite@4.4.9/node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
+      "node_modules/.pnpm/@sveltejs+kit@1.0.0-next.589_svelte@3.44.0+vite@4.5.1/node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
     ],
     "isDynamicEntry": true,
     "src": ".svelte-kit/generated/nodes/1.js"
@@ -102,7 +102,7 @@
     "src": ".svelte-kit/generated/nodes/19.js"
   },
   ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-5bd7dcd9.js",
+    "file": "_app/immutable/chunks/2-ebccf231.js",
     "imports": [
       "src/routes/+page.svelte"
     ],
@@ -151,7 +151,7 @@
     "src": ".svelte-kit/generated/nodes/6.js"
   },
   ".svelte-kit/generated/nodes/7.js": {
-    "file": "_app/immutable/chunks/7-2c1d1477.js",
+    "file": "_app/immutable/chunks/7-85d64622.js",
     "imports": [
       "src/routes/community/news/+page.svelte"
     ],
@@ -269,8 +269,8 @@
       "_index-0caa4f34.js"
     ]
   },
-  "_news-ceed2862.js": {
-    "file": "_app/immutable/chunks/news-ceed2862.js"
+  "_news-bcbaba77.js": {
+    "file": "_app/immutable/chunks/news-bcbaba77.js"
   },
   "_paths-b4419565.js": {
     "file": "_app/immutable/chunks/paths-b4419565.js"
@@ -282,7 +282,7 @@
       "_paths-b4419565.js"
     ]
   },
-  "node_modules/.pnpm/@sveltejs+kit@1.0.0-next.589_svelte@3.44.0+vite@4.4.9/node_modules/@sveltejs/kit/src/runtime/client/start.js": {
+  "node_modules/.pnpm/@sveltejs+kit@1.0.0-next.589_svelte@3.44.0+vite@4.5.1/node_modules/@sveltejs/kit/src/runtime/client/start.js": {
     "dynamicImports": [
       ".svelte-kit/generated/nodes/0.js",
       ".svelte-kit/generated/nodes/1.js",
@@ -306,23 +306,23 @@
       ".svelte-kit/generated/nodes/19.js",
       ".svelte-kit/generated/nodes/20.js"
     ],
-    "file": "_app/immutable/start-bfdc612f.js",
+    "file": "_app/immutable/start-aaaa9b12.js",
     "imports": [
       "_index-0caa4f34.js",
       "_singletons-703e3955.js",
       "_paths-b4419565.js"
     ],
     "isEntry": true,
-    "src": "node_modules/.pnpm/@sveltejs+kit@1.0.0-next.589_svelte@3.44.0+vite@4.4.9/node_modules/@sveltejs/kit/src/runtime/client/start.js"
+    "src": "node_modules/.pnpm/@sveltejs+kit@1.0.0-next.589_svelte@3.44.0+vite@4.5.1/node_modules/@sveltejs/kit/src/runtime/client/start.js"
   },
-  "node_modules/.pnpm/@sveltejs+kit@1.0.0-next.589_svelte@3.44.0+vite@4.4.9/node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+  "node_modules/.pnpm/@sveltejs+kit@1.0.0-next.589_svelte@3.44.0+vite@4.5.1/node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
     "file": "_app/immutable/components/error.svelte-d14794c0.js",
     "imports": [
       "_index-0caa4f34.js",
       "_singletons-703e3955.js"
     ],
     "isEntry": true,
-    "src": "node_modules/.pnpm/@sveltejs+kit@1.0.0-next.589_svelte@3.44.0+vite@4.4.9/node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
+    "src": "node_modules/.pnpm/@sveltejs+kit@1.0.0-next.589_svelte@3.44.0+vite@4.5.1/node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
   },
   "src/routes/+layout.css": {
     "file": "_app/immutable/assets/_layout-6af8d3e5.css",
@@ -360,10 +360,10 @@
     "css": [
       "_app/immutable/assets/_page-76de20ea.css"
     ],
-    "file": "_app/immutable/components/pages/_page.svelte-2c1a9c7d.js",
+    "file": "_app/immutable/components/pages/_page.svelte-ab05f1be.js",
     "imports": [
       "_index-0caa4f34.js",
-      "_news-ceed2862.js",
+      "_news-bcbaba77.js",
       "_Row-829946ad.js",
       "_Offcanvas.svelte_svelte_type_style_lang-b454e775.js",
       "_Card-f28b9214.js",
@@ -416,10 +416,10 @@
     "src": "src/routes/community/mailinglists/+page.svelte"
   },
   "src/routes/community/news/+page.svelte": {
-    "file": "_app/immutable/components/pages/community/news/_page.svelte-63f8c86c.js",
+    "file": "_app/immutable/components/pages/community/news/_page.svelte-5f3a6c0c.js",
     "imports": [
       "_index-0caa4f34.js",
-      "_news-ceed2862.js",
+      "_news-bcbaba77.js",
       "_CardBody-f6a84a68.js",
       "_Offcanvas.svelte_svelte_type_style_lang-b454e775.js",
       "_CardTitle-39755612.js",
