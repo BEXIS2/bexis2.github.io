@@ -96,5 +96,13 @@
 		"author": "Franziska Zander",
 		"date": "2023/12/22",
 		"content": "<p>We are glad to inform you that we have released a new major version (3.0.0-beta) of BEXIS2.</p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases/#3.0.0-beta\">here</a> for more details.</p>"
+	},
+	{
+		"id": 10,
+		"title": "BEXIS2 Release - 3.1.0",
+		"author": "Franziska Zander",
+		"date": "2024/03/12",
+		"content": "<pThis release focused on fixing found bugs or already identified necessary changes in version 3.0.0-beta. Thanks to all testing version 3.0.0-beta!.</p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases/#3.1.0\">here</a> for more details.</p>"
 	}
+	
 ]
