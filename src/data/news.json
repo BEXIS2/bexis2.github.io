@@ -102,7 +102,21 @@
 		"title": "BEXIS2 Release - 3.1.0",
 		"author": "Franziska Zander",
 		"date": "2024/03/12",
-		"content": "<pThis release focused on fixing found bugs or already identified necessary changes in version 3.0.0-beta. Thanks to all testing version 3.0.0-beta!.</p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases/#3.1.0\">here</a> for more details.</p>"
+		"content": "<p>This release focused on fixing found bugs or already identified necessary changes in version 3.0.0-beta. Thanks to all testing version 3.0.0-beta!.</p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases/#3.1.0\">here</a> for more details.</p>"
+	},
+	{
+		"id": 11,
+		"title": "BEXIS2 Release - 3.2.0",
+		"author": "David Schöne",
+		"date": "2024/04/17",
+		"content": "<p>This release focused on updating UI libraries, fixing bugs, adding new constraint features, and adding the first version of the new primary data for testing.</p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases/#3.2.0\">here</a> for more details.</p>"
+	},
+	{
+		"id": 11,
+		"title": "BEXIS2 Release - 3.2.1",
+		"author": "David Schöne",
+		"date": "2024/04/17",
+		"content": "<p>In this release 2 bugs were fixed for the mapping and delete dataset landingpage.</p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases/#3.2.1\">here</a> for more details.</p>"
 	}
 	
 ]
