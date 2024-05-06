@@ -21,7 +21,7 @@
 	},
 	{
 		"title": "Re-use Data Structures",
-		"description": "Keep track of the evolution of your dataset (i.e. who did what and when) and return to any previous version if needed.",
+		"description": "Design your dataset by specifying its data structure, variables, meanings, units and constraints only once in BEXIS2 and re-use them for any dataset.",
 		"icon": "repeat_FILL0_wght400_GRAD0_opsz48.svg"
 	},
 	{
