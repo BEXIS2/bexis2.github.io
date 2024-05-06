@@ -76,7 +76,7 @@
     "src": ".svelte-kit/generated/nodes/16.js"
   },
   ".svelte-kit/generated/nodes/17.js": {
-    "file": "_app/immutable/chunks/17-38ab0c1b.js",
+    "file": "_app/immutable/chunks/17-2f0d5341.js",
     "imports": [
       "src/routes/software/features/+page.svelte"
     ],
@@ -306,7 +306,7 @@
       ".svelte-kit/generated/nodes/19.js",
       ".svelte-kit/generated/nodes/20.js"
     ],
-    "file": "_app/immutable/start-36d92e87.js",
+    "file": "_app/immutable/start-6dc1ddb2.js",
     "imports": [
       "_index-0caa4f34.js",
       "_singletons-703e3955.js",
@@ -548,7 +548,7 @@
     "src": "src/routes/resources/techtalks/+page.svelte"
   },
   "src/routes/software/features/+page.svelte": {
-    "file": "_app/immutable/components/pages/software/features/_page.svelte-9cbe35d1.js",
+    "file": "_app/immutable/components/pages/software/features/_page.svelte-51551aa1.js",
     "imports": [
       "_index-0caa4f34.js",
       "_Row-829946ad.js",
