@@ -28,5 +28,15 @@
 		"title": "Party Package",
 		"description": "Manage information about organizations, institutes, projects, people, (or any custom type) and their relationships in one place and re-use this information throughout the system.",
 		"icon": "group_FILL0_wght400_GRAD0_opsz48.svg"
+	},
+	{
+		"title": "Entity Templates",
+		"description": "...",
+		"icon": "clone-regular.svg"
+	},
+	{
+		"title": "Application Settings",
+		"description": "...",
+		"icon": "gear-solid.svg"
 	}
 ]
