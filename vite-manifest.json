@@ -159,7 +159,7 @@
     "src": ".svelte-kit/generated/nodes/7.js"
   },
   ".svelte-kit/generated/nodes/8.js": {
-    "file": "_app/immutable/chunks/8-5f18c8ae.js",
+    "file": "_app/immutable/chunks/8-daad9987.js",
     "imports": [
       "src/routes/community/partnersAndInstances/+page.svelte"
     ],
@@ -306,7 +306,7 @@
       ".svelte-kit/generated/nodes/19.js",
       ".svelte-kit/generated/nodes/20.js"
     ],
-    "file": "_app/immutable/start-05f4778a.js",
+    "file": "_app/immutable/start-5a9dc8b7.js",
     "imports": [
       "_index-0caa4f34.js",
       "_singletons-703e3955.js",
@@ -429,7 +429,7 @@
     "src": "src/routes/community/news/+page.svelte"
   },
   "src/routes/community/partnersAndInstances/+page.svelte": {
-    "file": "_app/immutable/components/pages/community/partnersAndInstances/_page.svelte-52f15fb0.js",
+    "file": "_app/immutable/components/pages/community/partnersAndInstances/_page.svelte-0e1eafc4.js",
     "imports": [
       "_index-0caa4f34.js",
       "_paths-b4419565.js",
