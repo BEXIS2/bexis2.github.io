@@ -28,5 +28,15 @@
 		"title": "Party Package",
 		"description": "Manage information about organizations, institutes, projects, people, (or any custom type) and their relationships in one place and re-use this information throughout the system.",
 		"icon": "group_FILL0_wght400_GRAD0_opsz48.svg"
+	},
+	{
+		"title": "Entity Templates",
+		"description": "The management and use of different entities in the system is simplified by being able to create templates for different scenarios (e.g. collection data, sensors, etc.).",
+		"icon": "select_window_FILL0_wght400_GRAD0_opsz48.svg"
+	},
+	{
+		"title": "Application Settings",
+		"description": "Settings/options can be changed via a web interface without having to restart the system or act directly on the server.",
+		"icon": "settings_FILL0_wght400_GRAD0_opsz48.svg"
 	}
 ]
