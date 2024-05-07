@@ -78,5 +78,25 @@
 		"title": "Universität Hohenheim",
 		"url": "https://www.uni-hohenheim.de/",
 		"image": "hohenheim.svg"
+	},
+	{
+		"title": "BETA-FOR",
+		"url": "https://betafor.biozentrum.uni-wuerzburg.de/",
+		"image": "beta-for.png"
+	},
+	{
+		"title": "Nationalpark Bayrischer Wald",
+		"url": "https://www.nationalpark-bayerischer-wald.bayern.de/",
+		"image": "npbw.png"
+	},
+	{
+		"title": "Elter",
+		"url": "https://elter-ri.eu/",
+		"image": "elter.png"
+	},
+	{
+		"title": "SoilSystem",
+		"url": "https://soilsystems.net/",
+		"image": "SPP.jpg"
 	}
 ]
