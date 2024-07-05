@@ -102,7 +102,7 @@
     "src": ".svelte-kit/generated/nodes/19.js"
   },
   ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-7a6775d5.js",
+    "file": "_app/immutable/chunks/2-63ecc40e.js",
     "imports": [
       "src/routes/+page.svelte"
     ],
@@ -151,7 +151,7 @@
     "src": ".svelte-kit/generated/nodes/6.js"
   },
   ".svelte-kit/generated/nodes/7.js": {
-    "file": "_app/immutable/chunks/7-d24a367b.js",
+    "file": "_app/immutable/chunks/7-ce1abfd8.js",
     "imports": [
       "src/routes/community/news/+page.svelte"
     ],
@@ -269,8 +269,8 @@
       "_index-0caa4f34.js"
     ]
   },
-  "_news-2854350c.js": {
-    "file": "_app/immutable/chunks/news-2854350c.js"
+  "_news-7c66514e.js": {
+    "file": "_app/immutable/chunks/news-7c66514e.js"
   },
   "_paths-b4419565.js": {
     "file": "_app/immutable/chunks/paths-b4419565.js"
@@ -306,7 +306,7 @@
       ".svelte-kit/generated/nodes/19.js",
       ".svelte-kit/generated/nodes/20.js"
     ],
-    "file": "_app/immutable/start-0eb030ee.js",
+    "file": "_app/immutable/start-125b085b.js",
     "imports": [
       "_index-0caa4f34.js",
       "_singletons-703e3955.js",
@@ -360,10 +360,10 @@
     "css": [
       "_app/immutable/assets/_page-76de20ea.css"
     ],
-    "file": "_app/immutable/components/pages/_page.svelte-4b61d0a8.js",
+    "file": "_app/immutable/components/pages/_page.svelte-3ec74544.js",
     "imports": [
       "_index-0caa4f34.js",
-      "_news-2854350c.js",
+      "_news-7c66514e.js",
       "_Row-829946ad.js",
       "_Offcanvas.svelte_svelte_type_style_lang-b454e775.js",
       "_Card-f28b9214.js",
@@ -416,10 +416,10 @@
     "src": "src/routes/community/mailinglists/+page.svelte"
   },
   "src/routes/community/news/+page.svelte": {
-    "file": "_app/immutable/components/pages/community/news/_page.svelte-1b0e4d96.js",
+    "file": "_app/immutable/components/pages/community/news/_page.svelte-4a6f1993.js",
     "imports": [
       "_index-0caa4f34.js",
-      "_news-2854350c.js",
+      "_news-7c66514e.js",
       "_CardBody-f6a84a68.js",
       "_Offcanvas.svelte_svelte_type_style_lang-b454e775.js",
       "_CardTitle-39755612.js",
