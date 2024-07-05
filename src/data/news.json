@@ -123,7 +123,7 @@
 		"title": "BEXIS2 Release - 3.3.0",
 		"author": "Franziska Zander",
 		"date": "2024/07/02",
-		"content": "<p>It took us a bit longer, but BEXIS2 version 3.3.0 also has exciting new features! The first is the Darwin Core Archive Export, which is now possible entirely via the UI of BEXIS2 (metadata & data). The second bigger feature is the integration of a DOI workflow, which allows issuing DOIs at DataCite (your institutional account is required). Further, BEXIS2 instance can now define their own landing page and use an external metadata form to enter metadata. As part of our new release procedure we updated libraries, but also improved authentication options needed for our future development and fixed several bugs. </p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases/#3.3.0\">here</a> for more details.</p>"
+		"content": "<p>It took us a bit longer, but BEXIS2 version 3.3.0 also has exciting new features! The first is the Darwin Core Archive Export, which is now possible entirely via the UI of BEXIS2 (metadata & data). The second bigger feature is the integration of a DOI workflow, which allows issuing DOIs at DataCite (your institutional account is required). Further, BEXIS2 instance can now define their own landing page and use an external metadata form to enter metadata. As part of our new release procedure we updated libraries, but also improved authentication options needed for our future development and fixed several bugs. </p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases#3.3.0\">here</a> for more details.</p>"
 	}
 	
 ]
