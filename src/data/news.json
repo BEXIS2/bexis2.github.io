@@ -11,28 +11,28 @@
 		"title": "BEXIS2 Release - 2.14.5",
 		"author": "David Schöne",
 		"date": "2021/10/22",
-		"content": "<p>Before you rush off into the weekend, wait a minute. Here’s some great news. We have released a small but nice new patch.</p><p>Yes, BEXIS2 2.14.5 is now available.</p><p><b>Attention:</b> Changes were made in the web.config in line: 72 (see <a href=\"https://github.com/BEXIS2/Core/issues/803\">#803</a>)</p><p>Look forward to Monday and have fun with BEXIS2 stay healthy.</p><p>BEXIS2.14.5 is now available >>> <a href=\"https://bexis2.github.io/software/releases/#2.14.5\">here</a> <<<"
+		"content": "<p>Before you rush off into the weekend, wait a minute. Here’s some great news. We have released a small but nice new patch.</p><p>Yes, BEXIS2 2.14.5 is now available.</p><p><b>Attention:</b> Changes were made in the web.config in line: 72 (see <a href=\"https://github.com/BEXIS2/Core/issues/803\">#803</a>)</p><p>Look forward to Monday and have fun with BEXIS2 stay healthy.</p><p>BEXIS2.14.5 is now available >>> <a href=\"https://bexis2.github.io/software/releases#2.14.5\">here</a> <<<"
 	},
 	{
 		"id": 3,
 		"title": "BEXIS2 Release - 2.14.4",
 		"author": "Sven Thiel",
 		"date": "2021/05/17",
-		"content": "<p>From the home office, we send greetings and wish you good health. To make the challenging time a little more bearable, we send, besides the greetings also a patch for BEXIS2 that you should not miss.</p><p>Attention! Changes have been made in SMTP credentials and web.config. If an update is made, please use the new files and adapt them.</p><p>BEXIS2.14.4 is now available on our GitHub page: <a href=\"https://bexis2.github.io/software/releases/#2.14.4\">here</a>."
+		"content": "<p>From the home office, we send greetings and wish you good health. To make the challenging time a little more bearable, we send, besides the greetings also a patch for BEXIS2 that you should not miss.</p><p>Attention! Changes have been made in SMTP credentials and web.config. If an update is made, please use the new files and adapt them.</p><p>BEXIS2.14.4 is now available on our GitHub page: <a href=\"https://bexis2.github.io/software/releases#2.14.4\">here</a>."
 	},
 	{
 		"id": 3,
 		"title": "BEXIS2 Release - 2.14.6",
 		"author": "David Schöne",
 		"date": "2022/06/30",
-		"content": "<p>BEXIS2.14.6 is now available on our github page: <a href=\"https://bexis2.github.io/software/releases/#2.14.6\">here</a>."
+		"content": "<p>BEXIS2.14.6 is now available on our github page: <a href=\"https://bexis2.github.io/software/releases#2.14.6\">here</a>."
 	},
 	{
 		"id": 4,
 		"title": "BEXIS2 Release - 2.15",
 		"author": "David Schöne",
 		"date": "2022/08/25",
-		"content": "<p> Even though the sun is shining outside, we have continued to work. :D So we can release the new version earlier than expected.</p><p>BEXIS2.15 is now available on our github page: <a href=\"https://bexis2.github.io/software/releases/#2.15\">here</a>."
+		"content": "<p> Even though the sun is shining outside, we have continued to work. :D So we can release the new version earlier than expected.</p><p>BEXIS2.15 is now available on our github page: <a href=\"https://bexis2.github.io/software/releases#2.15\">here</a>."
 	},
 	{
 		"id": 5,
@@ -53,21 +53,21 @@
 		"title": "BEXIS2 Release - 2.16",
 		"author": "David Schöne",
 		"date": "2022/11/01",
-		"content": "<p>Hold on, it's not Christmas yet, but there's a new release anyway.</p><p>BEXIS2.16 is now available on our GitHub page: <a href=\"https://bexis2.github.io/software/releases/#2.16\">here</a>.</p>"
+		"content": "<p>Hold on, it's not Christmas yet, but there's a new release anyway.</p><p>BEXIS2.16 is now available on our GitHub page: <a href=\"https://bexis2.github.io/software/releases#2.16\">here</a>.</p>"
 	},
 	{
 		"id": 8,
 		"title": "BEXIS2 Release - 2.17",
 		"author": "David Schöne",
 		"date": "2023/02/23",
-		"content": "<p>Hi y'all, we are glad to inform you that we have released the new version 2.17 of BEXIS2.</p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases/#2.17\">here</a> for more details.</p>"
+		"content": "<p>Hi y'all, we are glad to inform you that we have released the new version 2.17 of BEXIS2.</p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases#2.17\">here</a> for more details.</p>"
 	},
 	{
 		"id": 9,
 		"title": "BEXIS2 Release - 2.18",
 		"author": "David Schöne",
 		"date": "2023/04/27",
-		"content": "<p>Hi y'all, we are glad to inform you that we have released the new version 2.18 of BEXIS2.</p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases/#2.18\">here</a> for more details.</p>"
+		"content": "<p>Hi y'all, we are glad to inform you that we have released the new version 2.18 of BEXIS2.</p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases#2.18\">here</a> for more details.</p>"
 	},
 	{
 		"id": 10,
@@ -81,42 +81,42 @@
 		"title": "BEXIS2 Release - 2.18.1",
 		"author": "Franziska Zander",
 		"date": "2023/06/28",
-		"content": "<p>We are glad to inform you that we have released the new version 2.18.1 of BEXIS2.</p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases/#2.18.1\">here</a> for more details.</p>"
+		"content": "<p>We are glad to inform you that we have released the new version 2.18.1 of BEXIS2.</p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases#2.18.1\">here</a> for more details.</p>"
 	},
 	{
 		"id": 9,
 		"title": "BEXIS2 Release - 2.18.2",
 		"author": "Franziska Zander",
 		"date": "2023/09/26",
-		"content": "<p>We are glad to inform you that we have released the new version 2.18.2 of BEXIS2.</p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases/#2.18.2\">here</a> for more details.</p>"
+		"content": "<p>We are glad to inform you that we have released the new version 2.18.2 of BEXIS2.</p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases#2.18.2\">here</a> for more details.</p>"
 	},
 	{
 		"id": 9,
 		"title": "BEXIS2 Release - 3.0.0-beta",
 		"author": "Franziska Zander",
 		"date": "2023/12/22",
-		"content": "<p>We are glad to inform you that we have released a new major version (3.0.0-beta) of BEXIS2.</p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases/#3.0.0-beta\">here</a> for more details.</p>"
+		"content": "<p>We are glad to inform you that we have released a new major version (3.0.0-beta) of BEXIS2.</p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases#3.0.0-beta\">here</a> for more details.</p>"
 	},
 	{
 		"id": 10,
 		"title": "BEXIS2 Release - 3.1.0",
 		"author": "Franziska Zander",
 		"date": "2024/03/12",
-		"content": "<p>This release focused on fixing found bugs or already identified necessary changes in version 3.0.0-beta. Thanks to all testing version 3.0.0-beta!.</p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases/#3.1.0\">here</a> for more details.</p>"
+		"content": "<p>This release focused on fixing found bugs or already identified necessary changes in version 3.0.0-beta. Thanks to all testing version 3.0.0-beta!.</p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases#3.1.0\">here</a> for more details.</p>"
 	},
 	{
 		"id": 11,
 		"title": "BEXIS2 Release - 3.2.0",
 		"author": "David Schöne",
 		"date": "2024/04/17",
-		"content": "<p>This release focused on updating UI libraries, fixing bugs, adding new constraint features, and adding the first version of the new primary data for testing.</p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases/#3.2.0\">here</a> for more details.</p>"
+		"content": "<p>This release focused on updating UI libraries, fixing bugs, adding new constraint features, and adding the first version of the new primary data for testing.</p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases#3.2.0\">here</a> for more details.</p>"
 	},
 	{
 		"id": 12,
 		"title": "BEXIS2 Release - 3.2.1",
 		"author": "David Schöne",
 		"date": "2024/04/25",
-		"content": "<p>In this release 2 bugs were fixed for the mapping and delete dataset landingpage.</p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases/#3.2.1\">here</a> for more details.</p>"
+		"content": "<p>In this release 2 bugs were fixed for the mapping and delete dataset landingpage.</p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases#3.2.1\">here</a> for more details.</p>"
 	},
 	{
 		"id": 13,
