@@ -22,7 +22,7 @@ sowie der Barrierefreien-Informationstechnik-Verordnung (BITV 2.0) zur Umsetzung
 <p>Diese Erklärung wurde am 08.09.2024 erstellt.</p>
   
 <h3>Barrieren melden: Kontakt zu den Feedback Ansprechpartnern</h3>
-<p>siehe Imprint</p>
+<p>bexis-support@uni-jena.de</p>
 
 <h3>Schlichtungsverfahren</h3>
 <p>siehe  https://www.uni-jena.de/41470/barrierefreiheit</p>
