@@ -152,7 +152,7 @@
     "src": ".svelte-kit/generated/nodes/5.js"
   },
   ".svelte-kit/generated/nodes/6.js": {
-    "file": "_app/immutable/chunks/6-196d1b94.js",
+    "file": "_app/immutable/chunks/6-64168312.js",
     "imports": [
       "src/routes/accessibility/+page.svelte"
     ],
@@ -315,7 +315,7 @@
       ".svelte-kit/generated/nodes/20.js",
       ".svelte-kit/generated/nodes/21.js"
     ],
-    "file": "_app/immutable/start-04a57a2c.js",
+    "file": "_app/immutable/start-c7d49fc8.js",
     "imports": [
       "_index-216c58ee.js",
       "_singletons-9397add2.js",
@@ -417,7 +417,7 @@
     "src": "src/routes/about/people/+page.svelte"
   },
   "src/routes/accessibility/+page.svelte": {
-    "file": "_app/immutable/components/pages/accessibility/_page.svelte-ed336440.js",
+    "file": "_app/immutable/components/pages/accessibility/_page.svelte-f220c308.js",
     "imports": [
       "_index-216c58ee.js"
     ],
