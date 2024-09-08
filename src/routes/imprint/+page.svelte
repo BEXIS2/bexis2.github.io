@@ -14,10 +14,6 @@
 	07743 Jena <br />
 	Tel.: +49-3641-946430 <br />
 	<br />
-	Roman Gerlach <br />
-	Löbdergraben 32 <br />
-	07743 Jena <br />
-	Tel.: +49-3641-948968 <br />
 </div>
 
 <style>
