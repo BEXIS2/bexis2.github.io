@@ -7,7 +7,7 @@
 </svelte:head>
 
 <h2>Erklärung zur Barrierefreiheit</h2>
-<h4>Diese Erklärung zur Barrierefreiheit gilt für die unter https://bexis2.uni-jena.de veröffentlichte Webseite</h4>
+<p>Diese Erklärung zur Barrierefreiheit gilt für die unter https://bexis2.uni-jena.de veröffentlichte Webseite</p>
 
 <p>Im Sinne der Richtlinie (EU) 2016/2102 sind wir bemüht, unsere Websites und mobilen Anwendungen im Einklang mit den Bestimmungen des Behindertengleichstellungsgesetzes des Bundes (BGG) 
 sowie der Barrierefreien-Informationstechnik-Verordnung (BITV 2.0) zur Umsetzung der Richtlinie (EU) 2016/2102 barrierefrei zugänglich zu machen.</p>
