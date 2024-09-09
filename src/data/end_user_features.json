@@ -11,7 +11,7 @@
 	},
 	{
 		"title": "Web API Access",
-		"description": "Beside downloading a dataset from the portal, you may also retrieve data stored in BEXIS directly with a script or from your application (e.g. R) using API calls.",
+		"description": "Beside downloading a dataset from the portal, you may also retrieve data stored in BEXIS2 directly with a script or from your application (e.g. R) using API calls.",
 		"icon": "api_FILL0_wght400_GRAD0_opsz48.svg"
 	},
 	{
@@ -36,7 +36,12 @@
 	},
 	{
 		"title": "Single Sign-on",
-		"description": "Use your existing credentials of your organisation to log on to BEXIS. No need to remember another username and password.",
+		"description": "Use your existing credentials of your organisation to log on to BEXIS2. No need to remember another username and password.",
 		"icon": "input_FILL0_wght400_GRAD0_opsz48.svg"
+	},
+	{
+		"title": "DOI Workflow",
+		"description": "Integration of the DOI workflow, which allows issuing DOIs at DataCite for your datasets (your institutional account is required)",
+		"icon": "doi.svg"
 	}
 ]
