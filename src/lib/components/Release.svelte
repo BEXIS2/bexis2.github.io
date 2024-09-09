@@ -19,7 +19,7 @@
 		<Row>
 			<Col xs="2"
 				><h3>
-					<img src={author.avatar_url} style="width:20px" />
+					<img src={author.avatar_url} style="width:20px" alt="avatar {author.login}" />
 					<a href={author.html_url}>{author.login}</a>
 				</h3></Col
 			>

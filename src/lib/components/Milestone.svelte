@@ -33,7 +33,7 @@
 		<Row>
 			<Col xs="5" sm="5" md="5"
 				><h3>
-					<img src={creator.avatar_url} style="width:20px" />
+					<img src={creator.avatar_url} style="width:20px" alt="avatar {creator.login}" />
 					<a href={creator.html_url}>{creator.login}</a>
 				</h3></Col
 			>

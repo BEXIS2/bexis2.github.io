@@ -19,8 +19,8 @@
 </svelte:head>
 
 <ImageLinkList
-	title="BEXIS ++ Partners"
-	description="The following organisation are part of the BExIS++ core project."
+	title="BEXIS2 Partners"
+	description="The following organisation are part of the BEXIS2 core project."
 	list={partnersJson}
 />
 

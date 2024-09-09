@@ -10,7 +10,7 @@
 </script>
 
 <div class="card" style="width: 18rem;">
-	<img src="{base}/images/people/{image}" class="card-img-top" alt="..." />
+	<img src="{base}/images/people/{image}" class="card-img-top" alt="image of {name}" />
 	<div class="card-body">
 		<h5 class="card-title">{name}</h5>
 		<hr />

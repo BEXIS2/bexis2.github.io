@@ -22,12 +22,12 @@
 				<Row style="padding-bottom:10px">
 					<Col xs="6">
 						<div>
-							<img src={base + '/images/dfg_logo_schriftzug_gray.png'} alt="dfg_logo" width="300px" />
+							<img src={base + '/images/dfg_logo_schriftzug_gray.png'} alt="dfg logo" width="300px" />
 						</div>
 					</Col>
 					<Col xs="6">
-						<div class="text-end">		
-							<img src={base + '/images/NFDI4Biodiversity.png'} alt="nfdi4bio_logo" width="300px" />
+						<div class="text-end">
+							<img src={base + '/images/NFDI4Biodiversity.png'} alt="nfdi4bio logo" width="300px" />
 						</div>
 					</Col>
 				</Row>
@@ -35,7 +35,7 @@
 					This work was supported by the German Research Foundation (DFG) within the project “Establishment of the National Research Data Infrastructure (NFDI)” in the consortium NFDI4Biodiversity (project number 442032008).
 				</div>
 			</Col>
-			
+
 		</Row>
 	</div>
 </footer>

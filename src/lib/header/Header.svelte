@@ -46,7 +46,7 @@
 <header>
 	<Navbar color="light" light expand="md">
 		<NavbarBrand href="{base}/">
-			<img src={base + '/Logo_BEXIS_rgb_2600x830.png'} alt="logo" width="200px" /></NavbarBrand
+			<img src={base + '/Logo_BEXIS_rgb_2600x830.png'} alt="BEXIS2 logo" width="200px" /></NavbarBrand
 		>
 		<NavbarToggler on:click={() => (isOpen = !isOpen)} />
 		<Collapse {isOpen} navbar expand="md" on:update={handleUpdate}>
@@ -63,7 +63,7 @@
 					<DropdownMenu end>
 						<DropdownItem href={base + '/software/features'}>Features</DropdownItem>
 						<DropdownItem href={base + '/software/releases'}>Releases</DropdownItem>
-						<DropdownItem href={base + '/software/milestones'}>Milestones</DropdownItem>
+						<!--<DropdownItem href={base + '/software/milestones'}>Milestones</DropdownItem>-->
 						<DropdownItem href={base + '/software/modules'}>Modules Overview</DropdownItem>
 						<DropdownItem divider />
 						<DropdownItem href="https://demo.bexis2.uni-jena.de/">Live Demo</DropdownItem>
@@ -78,6 +78,7 @@
 						<DropdownItem href={base + '/resources/manuals'}>Manuals</DropdownItem>
 						<DropdownItem href={base + '/resources/techtalks'}>Tech Talks</DropdownItem>
 						<DropdownItem href={base + '/resources/publications'}>Publications</DropdownItem>
+						<DropdownItem divider />
 						<DropdownItem href="https://fusion.cs.uni-jena.de/bppCM/index.htm" target="_blank"
 							>Conceptional Model</DropdownItem
 						>
@@ -101,7 +102,7 @@
 							>System Requirements</DropdownItem
 						>
 						<DropdownItem href={base + '/knowledgebase/featurelist'}>All Features</DropdownItem>
-						<DropdownItem href={base + '/knowledgebase/glossary'}>Glossary</DropdownItem>
+						<!--<DropdownItem href={base + '/knowledgebase/glossary'}>Glossary</DropdownItem>-->
 					</DropdownMenu>
 				</Dropdown>
 

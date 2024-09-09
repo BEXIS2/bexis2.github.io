@@ -8,6 +8,8 @@
 	<title>Feature List</title>
 </svelte:head>
 
+<div><em>Note: this list is currently not further maintained. Please check our release note for the latest features.</em></div>
+
 <div>
 	<SvelteMarkdown source={data.doc} />
 </div>

@@ -13,7 +13,7 @@
 	<title>Home</title>
 </svelte:head>
 
-<img src={base + '/images/Bexis_Home_Header.gif'} alt="banner" width="100%" />
+<img src={base + '/images/Bexis_Home_Header.webp'} alt="BEXIS2 banner" width="100%" />
 
 <Row>
 	<Col xs="12" sm="6" md="4">
@@ -33,7 +33,7 @@
 	</Col>
 	<Col xs="12" sm="6" md="4">
 		<Card title="Latest Releases">
-			Manage your research data now. BEXIS is easy to run and simple to maintain. <a
+			Manage your research data now. BEXIS2 is easy to run and simple to maintain. <a
 				href="{base}/software/releases"
 				>Download the latest version
 			</a> of BEXIS2.
