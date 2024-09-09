@@ -168,3 +168,7 @@ hr {
 	background-color: var(--hover);
 	color: var(--text-color);
 }
+
+.nav-link:focus, .nav-link:hover {
+    color: var(--text-color);
+}
