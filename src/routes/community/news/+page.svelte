@@ -2,6 +2,10 @@
 	import newsJson from '../../../data/news.json';
 	import News from '$lib/components/News.svelte';
 	import { Row, Col, Card } from 'sveltestrap';
+
+	let result = newsJson
+		.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
+		.reverse();
 </script>
 
 <svelte:head>
@@ -9,8 +13,8 @@
 </svelte:head>
 
 <Row>
-	{#if newsJson}
-		{#each newsJson as news}
+	{#if result}
+		{#each result as news}
 			<Col xs="12">
 				<News {...news} />
 			</Col>
