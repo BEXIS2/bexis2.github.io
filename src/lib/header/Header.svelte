@@ -48,7 +48,7 @@
 		<NavbarBrand href="{base}/">
 			<img src={base + '/Logo_BEXIS_rgb_2600x830.png'} alt="BEXIS2 logo" width="200px" /></NavbarBrand
 		>
-		<NavbarToggler on:click={() => (isOpen = !isOpen)} />
+		<NavbarToggler on:click={() => (isOpen = !isOpen)} title="Navigation"/>
 		<Collapse {isOpen} navbar expand="md" on:update={handleUpdate}>
 			<Nav class="ms-auto" navbar>
 				<NavItem>
