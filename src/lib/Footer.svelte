@@ -8,11 +8,11 @@
 		<hr />
 		<Row>
 			<Col xs="3">
-				<a href="https://www.fusion.uni-jena.de/"
+				<a href="https://www.fusion.uni-jena.de/" style="font-size: x-small"
 					>FUSION: Heinz-Nixdorf Endowed Chair for Distributed Information Systems</a
 				>
 				<br />
-				<a href="https://www.uni-jena.de/">Friedrich Schiller University of Jena</a>
+				<a href="https://www.uni-jena.de/" style="font-size: x-small">Friedrich Schiller University of Jena</a>
 				<br />
 				<br />
 				<span>@2024 BEXIS2</span> <a href={base + '/imprint'}>Imprint</a> <a href={base + '/accessibility'}>Accessibility</a>
