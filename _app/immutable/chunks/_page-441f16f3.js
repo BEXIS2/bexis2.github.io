@@ -109,7 +109,7 @@ The poster presents our approach of enabling the Biodiversity Exploratories Info
 
 @inproceedings{10.1145/2389686.2389690,
 title = {SciQL: A Query Language for Unified Scientific Data Processing and Management},
-author = {Chamanara, Javad and K\\"{o}nig-Ries, Birgitta},
+authors = {Chamanara, Javad and K\xF6nig-Ries, Birgitta},
 source = {PIKM '12: Proceedings of the 5th Ph.D. workshop on Information and knowledge},
 place = {Maui, Hawaii, USA},
 date = {2012-11-02},
