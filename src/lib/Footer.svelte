@@ -15,7 +15,7 @@
 				<a href="https://www.uni-jena.de/">Friedrich Schiller University of Jena</a>
 				<br />
 				<br />
-				<span>@2024 BEXIS2</span> <a href={base + '/imprint'}>Imprint</a>
+				<span>@2024 BEXIS2</span> <a href={base + '/imprint'}>Imprint</a> <a href={base + '/accessibility'}>Accessibility</a>
 			</Col>
 			<Col xs="1"></Col>
 			<Col xs="8">
@@ -31,7 +31,7 @@
 						</div>
 					</Col>
 				</Row>
-				<div class="text-end">
+				<div class="text-end" style="font-size: x-small">
 					This work was supported by the German Research Foundation (DFG) within the project “Establishment of the National Research Data Infrastructure (NFDI)” in the consortium NFDI4Biodiversity (project number 442032008).
 				</div>
 			</Col>
@@ -50,7 +50,7 @@
 		max-width: 1024px;
 		margin: 0 auto;
 		box-sizing: border-box;
-		font-size: x-small;
+		font-size: small;
 	}
 
 	footer a {
