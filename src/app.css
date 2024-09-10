@@ -169,6 +169,6 @@ hr {
 	color: var(--text-color);
 }
 
-.nav-link:focus, .nav-link:hover{
+.nav-link:focus, .nav-link:hover, .nav-link {
     color: var(--text-color);
 }
