@@ -118,3 +118,9 @@
 		</Collapse>
 	</Navbar>
 </header>
+
+<style>
+	:global(.nav-link) {
+		color: var(--text-color);
+	}
+</style>

@@ -170,5 +170,5 @@ hr {
 }
 
 .nav-link:focus, .nav-link:hover{
-    color: var(--text-color) important;
+    color: var(--text-color);
 }
