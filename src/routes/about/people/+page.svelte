@@ -22,7 +22,7 @@
 <hr />
 <br />
 
-<h2>Contributers</h2>
+<h1>Contributers</h1>
 
 <Row>
 	{#if contributers}

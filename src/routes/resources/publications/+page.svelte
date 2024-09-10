@@ -8,12 +8,14 @@
 	<title>Publications</title>
 </svelte:head>
 
+<h1>Publications</h1>
+
 {#if data}
-	<ol>
+
 		{#each data.body as pub}
 			<Publication {...pub} />
 		{/each}
-	</ol>
+
 {:else}
 	<b>...loading</b>
 {/if}

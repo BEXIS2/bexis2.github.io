@@ -18,6 +18,8 @@
 	<title>Partners & Instances</title>
 </svelte:head>
 
+<h1>Partners & Instances</h1>
+
 <ImageLinkList
 	title="BEXIS2 Partners"
 	description="The following organisation are part of the BEXIS2 core project."

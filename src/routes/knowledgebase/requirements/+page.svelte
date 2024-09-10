@@ -1,4 +1,4 @@
-<h2>System Requirements</h2>
+<h1>System Requirements</h1>
 
 <p>
 	<b>Operating System:</b> Windows based (e.g. Windows 7, Windows Server 2016 or higher) <br />

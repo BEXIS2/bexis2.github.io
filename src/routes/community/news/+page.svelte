@@ -12,6 +12,8 @@
 	<title>News</title>
 </svelte:head>
 
+<h1>News</h1>
+
 <Row>
 	{#if result}
 		{#each result as news}

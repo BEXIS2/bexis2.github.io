@@ -2,7 +2,7 @@
 	<title>Mailing Lists</title>
 </svelte:head>
 
-<h2>Mailing Lists</h2>
+<h1>Mailing Lists</h1>
 <p>
 	You are most welcome to join our mailing lists For any further discussion on BEXIS2. Both lists
 	are archived at mail-archive.com, so all posts are public and searchable. We invite you not only
