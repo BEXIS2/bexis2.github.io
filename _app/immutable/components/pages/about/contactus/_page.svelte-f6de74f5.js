@@ -1,5 +1,5 @@
 import{S as pt,i as vt,s as _t,a as _,k as s,q as i,$ as ct,h as r,c,l,m as p,r as n,n as dt,b as f,Z as e,A as nt}from"../../../../chunks/index-366e6caf.js";import{b as It}from"../../../../chunks/paths-9373013e.js";function yt(ht){let d,I,U,R,y,H,S,b,P,E,j,z,F,N,J,V,w,A,B,D,C,a,L,M,X,Z,$,G,K,O,Q,T,k,x,W,q,u,Y,g,tt,et,rt,st,it,lt;return{c(){d=_(),I=s("h1"),U=i("Contact Us"),R=_(),y=s("h2"),H=i("Contact Information"),S=_(),b=s("p"),P=i("If you have any questions related to the usage or the development of BEXIS2, please join our "),E=s("a"),j=i("mailing lists"),z=i(". "),F=s("br"),N=i(`
-	Contact us at `),J=s("b"),V=i("bexis-support@uni-jena.de"),w=i(" if you have any further questions or suggestions."),A=_(),B=s("h2"),D=i("Mailing Address:"),C=_(),a=s("p"),L=i("Friedrich-Schiller-Universit\xE4t Jena "),M=s("br"),X=i(`
+	Contact us at `),J=s("b"),V=i("bexis2-support@uni-jena.de"),w=i(" if you have any further questions or suggestions."),A=_(),B=s("h2"),D=i("Mailing Address:"),C=_(),a=s("p"),L=i("Friedrich-Schiller-Universit\xE4t Jena "),M=s("br"),X=i(`
 	Institut f\xFCr Informatik `),Z=s("br"),$=i(`
 	Heinz-Nixdorf-Stiftungsprofessur f\xFCr Verteilte Informationssysteme `),G=s("br"),K=i(`
 	Ernst-Abbe-Platz 1-4 `),O=s("br"),Q=i(`
@@ -7,7 +7,7 @@ import{S as pt,i as vt,s as _t,a as _,k as s,q as i,$ as ct,h as r,c,l,m as p,r 
 	Institut f\xFCr Informatik `),et=s("br"),rt=i(`
 	Leutragraben 1, Jentower 17N02 `),st=s("br"),it=i(`
 	07743 Jena `),lt=s("br"),this.h()},l(t){ct('[data-svelte="svelte-1k4xffk"]',document.head).forEach(r),d=c(t),I=l(t,"H1",{});var at=p(I);U=n(at,"Contact Us"),at.forEach(r),R=c(t),y=l(t,"H2",{});var ot=p(y);H=n(ot,"Contact Information"),ot.forEach(r),S=c(t),b=l(t,"P",{});var v=p(b);P=n(v,"If you have any questions related to the usage or the development of BEXIS2, please join our "),E=l(v,"A",{href:!0});var ft=p(E);j=n(ft,"mailing lists"),ft.forEach(r),z=n(v,". "),F=l(v,"BR",{}),N=n(v,`
-	Contact us at `),J=l(v,"B",{});var ut=p(J);V=n(ut,"bexis-support@uni-jena.de"),ut.forEach(r),w=n(v," if you have any further questions or suggestions."),v.forEach(r),A=c(t),B=l(t,"H2",{});var bt=p(B);D=n(bt,"Mailing Address:"),bt.forEach(r),C=c(t),a=l(t,"P",{});var m=p(a);L=n(m,"Friedrich-Schiller-Universit\xE4t Jena "),M=l(m,"BR",{}),X=n(m,`
+	Contact us at `),J=l(v,"B",{});var ut=p(J);V=n(ut,"bexis2-support@uni-jena.de"),ut.forEach(r),w=n(v," if you have any further questions or suggestions."),v.forEach(r),A=c(t),B=l(t,"H2",{});var bt=p(B);D=n(bt,"Mailing Address:"),bt.forEach(r),C=c(t),a=l(t,"P",{});var m=p(a);L=n(m,"Friedrich-Schiller-Universit\xE4t Jena "),M=l(m,"BR",{}),X=n(m,`
 	Institut f\xFCr Informatik `),Z=l(m,"BR",{}),$=n(m,`
 	Heinz-Nixdorf-Stiftungsprofessur f\xFCr Verteilte Informationssysteme `),G=l(m,"BR",{}),K=n(m,`
 	Ernst-Abbe-Platz 1-4 `),O=l(m,"BR",{}),Q=n(m,`
