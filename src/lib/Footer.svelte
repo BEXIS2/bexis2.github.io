@@ -15,7 +15,7 @@
 				<a href="https://www.uni-jena.de/" style="font-size: x-small">Friedrich Schiller University of Jena</a>
 				<br />
 				<br />
-				<span>@2024 BEXIS2</span> <a href={base + '/imprint'}>Imprint</a> <a href={base + '/accessibility'}>Accessibility</a>
+				<span>@2025 BEXIS2</span> <a href={base + '/imprint'}>Imprint</a> <a href={base + '/accessibility'}>Accessibility</a>
 			</Col>
 			<Col xs="1"></Col>
 			<Col xs="8">
