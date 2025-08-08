@@ -137,14 +137,34 @@
 		"title": "BEXIS2 Release - 3.3.2",
 		"author": "Franziska Zander",
 		"date": "2024/09/04",
-		"content": "<p>We are glad to inform you that we have released the new version 3.3.2 of BEXIS2.</p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases#3.3.2\">here</a> for more details.</p>"
+		"content": "<p>We are glad to inform you that we have released the new version 3.3.2 of BEXIS2.</p><p>Please take a look <a href=\"https://bexis2.github.io/software/releases#3.3.2\">here</a> for more details.</p>"
 	},
 	{
 		"id": 16,
 		"title": "BEXIS2 Release - 3.4.0",
 		"author": "Franziska Zander",
 		"date": "2024/09/27",
-		"content": "<p>We are happy to inform you that we added several new cool features to BEXIS2, improved several pages, fixed bugs, and also took care of maintenance and security issues.</p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases#3.4.0\">here</a> for more details.</p>"
+		"content": "<p>We are happy to inform you that we added several new cool features to BEXIS2, improved several pages, fixed bugs, and also took care of maintenance and security issues.</p><p>Please take a look <a href=\"https://bexis2.github.io/software/releases#3.4.0\">here</a> for more details.</p>"
+	},
+	{
+		"id": 16,
+		"title": "BEXIS2 Release - 4.0.0",
+		"author": "Franziska Zander",
+		"date": "2025/04/04",
+		"content": "<p>We are happy to inform you that this version mainly contains fixed bugs and usability improvements of the new functions and features, focusing on the area of dataset creation and upload introduced since version 3.0.0. and a refactored documentation.</p><p>Please take a look <a href=\"https://bexis2.github.io/software/releases#4.0.0\">here</a> for more details.</p>"
+	},
+	{
+		"id": 16,
+		"title": "BEXIS2 Release - 4.0.1",
+		"author": "Franziska Zander",
+		"date": "2025/04/22",
+		"content": "<p>We are happy to inform you that we released a small bugfix version for which also add new seed data for DOI issuing.</p><p>Please take a look <a href=\"https://bexis2.github.io/software/releases#4.0.1\">here</a> for more details.</p>"
+	},
+	{
+		"id": 17,
+		"title": "BEXIS2 Release - 4.0.2",
+		"author": "Franziska Zander",
+		"date": "2025/05/12",
+		"content": "<p>We are happy to inform you that we fixed some bugs.</p><p>Please take a look <a href=\"https://bexis2.github.io/software/releases#4.0.2\">here</a> for more details.</p>"
 	}
-	
 ]

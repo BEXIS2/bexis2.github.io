@@ -75,13 +75,16 @@
 					<DropdownToggle nav caret>Resources</DropdownToggle>
 					<DropdownMenu end>
 						<DropdownItem href={base + '/resources/install'}>Installation Guide</DropdownItem>
+						<DropdownItem href={base + '/knowledgebase/requirements'}
+							>System Requirements</DropdownItem
+						>
 						<DropdownItem href={base + '/resources/manuals'}>Manuals</DropdownItem>
 						<DropdownItem href={base + '/resources/techtalks'}>Tech Talks</DropdownItem>
 						<DropdownItem href={base + '/resources/publications'}>Publications</DropdownItem>
-						<DropdownItem divider />
+						<!---<DropdownItem divider />
 						<DropdownItem href="https://fusion.cs.uni-jena.de/bppCM/index.htm" target="_blank"
 							>Conceptional Model</DropdownItem
-						>
+						>-->
 					</DropdownMenu>
 				</Dropdown>
 
@@ -95,16 +98,14 @@
 						<DropdownItem href={base + '/community/news'}>News</DropdownItem>
 					</DropdownMenu>
 				</Dropdown>
-				<Dropdown nav inNavbar>
+				<!--<Dropdown nav inNavbar>
 					<DropdownToggle nav caret>Knowledge Base</DropdownToggle>
 					<DropdownMenu end>
-						<DropdownItem href={base + '/knowledgebase/requirements'}
-							>System Requirements</DropdownItem
-						>
+
 						<DropdownItem href={base + '/knowledgebase/featurelist'}>All Features</DropdownItem>
-						<!--<DropdownItem href={base + '/knowledgebase/glossary'}>Glossary</DropdownItem>-->
+						<DropdownItem href={base + '/knowledgebase/glossary'}>Glossary</DropdownItem>
 					</DropdownMenu>
-				</Dropdown>
+				</Dropdown>-->
 
 				<Dropdown nav inNavbar>
 					<DropdownToggle nav caret>About</DropdownToggle>
