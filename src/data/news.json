@@ -70,13 +70,6 @@
 		"content": "<p>Hi y'all, we are glad to inform you that we have released the new version 2.18 of BEXIS2.</p><p>Please take a look at <a href=\"https://bexis2.github.io/software/releases#2.18\">here</a> for more details.</p>"
 	},
 	{
-		"id": 10,
-		"title": "TKFDM Coffee Lecture",
-		"author": "Franziska Zander",
-		"date": "2023/07/19",
-		"content": "<p>Presentation in German. Click <a href=\"https://www.youtube.com/watch?v=TtLm_1mf3LU\">here</a> to watch it.</p>"
-	},
-	{
 		"id": 11,
 		"title": "BEXIS2 Release - 2.18.1",
 		"author": "Franziska Zander",
@@ -147,24 +140,73 @@
 		"content": "<p>We are happy to inform you that we added several new cool features to BEXIS2, improved several pages, fixed bugs, and also took care of maintenance and security issues.</p><p>Please take a look <a href=\"https://bexis2.github.io/software/releases#3.4.0\">here</a> for more details.</p>"
 	},
 	{
-		"id": 16,
+		"id": 17,
 		"title": "BEXIS2 Release - 4.0.0",
 		"author": "Franziska Zander",
 		"date": "2025/04/04",
 		"content": "<p>We are happy to inform you that this version mainly contains fixed bugs and usability improvements of the new functions and features, focusing on the area of dataset creation and upload introduced since version 3.0.0. and a refactored documentation.</p><p>Please take a look <a href=\"https://bexis2.github.io/software/releases#4.0.0\">here</a> for more details.</p>"
 	},
 	{
-		"id": 16,
+		"id": 18,
 		"title": "BEXIS2 Release - 4.0.1",
 		"author": "Franziska Zander",
 		"date": "2025/04/22",
 		"content": "<p>We are happy to inform you that we released a small bugfix version for which also add new seed data for DOI issuing.</p><p>Please take a look <a href=\"https://bexis2.github.io/software/releases#4.0.1\">here</a> for more details.</p>"
 	},
 	{
-		"id": 17,
+		"id": 19,
 		"title": "BEXIS2 Release - 4.0.2",
 		"author": "Franziska Zander",
 		"date": "2025/05/12",
 		"content": "<p>We are happy to inform you that we fixed some bugs.</p><p>Please take a look <a href=\"https://bexis2.github.io/software/releases#4.0.2\">here</a> for more details.</p>"
+	},
+	{
+		"id": 20,
+		"title": "BEXIS2 Release - 4.1.0",
+		"author": "David Schöne",
+		"date": "2025/08/21",
+		"content": "<p>This release comes with a big reduction in data type complexity by removing unused and redundant data types. Only the most commonly used data types are now available, which simplifies the data structure creation process. Additionally, this release includes several bug fixes and enhancements to improve the overall user experience. Further we introduced a new setting to control sending error emails based from the system.</p><p>Please take a look <a href=\"https://bexis2.github.io/software/releases#4.1.0\">here</a> for more details.</p>"
+	},
+	{
+		"id": 21,
+		"title": "TKFDM Coffee Lecture",
+		"author": "David Schöne",
+		"date": "2023/07/19",
+		"content": "<p>Roman Gerlach gave a presentation on BEXIS2 at the Forschungsdatenmanagement Thüringen (TKFD) coffee lecture. The video is available here.</p><p>The presentation is available<a href=\"https://www.youtube.com/watch?v=TtLm_1mf3LU&t=1s\">here</a>.</p>"
+	},
+	{
+		"id": 22,
+		"title": "LAND Community Workshop 2025",
+		"author": "David Schöne",
+		"date": "2025/01/21",
+		"content": "<p>David Schöne had the honor of giving a BEXIS2 hands-on workshop at the “LAND Community Workshop 2025” in Leipzig.</p>"
+	},
+	{
+		"id": 23,
+		"title": "Uni Trier",
+		"author": "David Schöne",
+		"date": "2025/01/31",
+		"content": "<p>In Leipzig, we had the wonderful opportunity to collaborate with the University of Trier. During the workshop, we delved deep into the creation of data structures and the uploading of data.</p>"
+	},
+	{
+		"id": 24,
+		"title": "HeFDI Data Talk",
+		"author": "David Schöne",
+		"date": "2025/03/04",
+		"content": "<p>Our team was delighted to recently hold a presentation on BEXIS2, the open-source data management system, as part of <b>the HeFDI Data Talks series</b>. The event, \"BEXIS2 - Funktionale Übersicht und Demo,\" gave us the opportunity to showcase the system's key features and demonstrate its user-friendly interface. We explored how BEXIS2 helps researchers efficiently manage, document, and share their data, particularly for projects in biodiversity and environmental sciences. The presentation was a great success, and we thank the HeFDI team and everyone who attended for their active participation and insightful questions.</p><p>The presentaion is available <a href=\"https://www.youtube.com/watch?v=tyqpHj5AGKY&t=311s\">here</a>.</p>"
+	},
+	{
+		"id": 25,
+		"title": "NFDIBiodiversity Tools & Services",
+		"author": "David Schöne",
+		"date": "2025/05/08",
+		"content": "<p>During the <b>NFDI4Biodiversity Tools & Services</b> webinar, David Schöne presented the free, open-source data management system, <b>BEXIS2</b>. His presentation, titled 'BEXIS2 - A free, open-source software that supports researchers in data management,' showed attendees how the software effectively assists researchers with their data management tasks.</b>. The event, \"BEXIS2 - Funktionale Übersicht und Demo,\" gave us the opportunity to showcase the system's key features and demonstrate its user-friendly interface. We explored how BEXIS2 helps researchers efficiently manage, document, and share their data, particularly for projects in biodiversity and environmental sciences. The presentation was a great success, and we thank the HeFDI team and everyone who attended for their active participation and insightful questions.</p><p>The presentation is available <a href=\"https://www.youtube.com/watch?v=tyqpHj5AGKY&t=311s\">here</a>.</p>"
+	},
+	{
+		"id": 26,
+		"title": "Bridging Data and People: BEXIS2 in Focus at FDM-Tage 2025",
+		"author": "David Schöne",
+		"date": "2025/07/19",
+		"content": "<p>At the recent FDM-Tage 2025, Cornelia Fürstenau (Data Manager, Biodiversity Exploratories) and David Schöne (BEXIS2 Developer) gave a joint presentation titled <b>\"Bridging Data and People: BEXIS2 Through Two Lenses.\"</b></p><p>They offered a unique perspective on the BEXIS2 research data management system, showing its functions from two different angles: the end-user and the data manager. This combined approach highlighted how the software effectively addresses the needs of various user groups.</p><p>The presentation is available <a href=\"https://www.youtube.com/watch?v=iYxLBBrwduk&t=350s\">here</a>."
 	}
 ]
