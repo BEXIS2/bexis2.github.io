@@ -1,6 +1,7 @@
 <script>
 	import { Row, Col } from 'sveltestrap';
 	import TechTalk from '$lib/components/TechTalk.svelte';
+
 </script>
 
 <svelte:head>
@@ -8,11 +9,42 @@
 </svelte:head>
 
 <div class="content">
-	<h2>BEXIS2 Tech Talk Series</h2>
+	<h2>Get Started with BEXIS2</h2>
+
+	<p>Our introductory videos offer a quick and easy way to get started with the software.</p>
+
+	<Row>
+		<Col>
+			<TechTalk
+			title="BEXIS2 - Eine kostenlose, quelloffene Software unterstützt Forschende bei der Datenverwaltung"
+			url="https://www.youtube.com/embed/tyqpHj5AGKY?si=9Ile0fIRN_2VlfKq"
+			/>
+		</Col>
+		<Col>
+			<TechTalk
+				title="Bridging Data and People: BEXIS2 Through Two Lenses"
+				url="https://www.youtube.com/embed/iYxLBBrwduk?si=H9VS7r5i2N0Smz0u"
+				/>
+			</Col>
+			<!-- <Col>
+			<TechTalk
+				title="BEXIS2 - Funktionale Übersicht und Demo. 06.09.2024"
+				url="https://www.youtube.com/embed/_tVMBIAekGw?si=5BQov5Td3F5BRlEg"
+				/>
+			</Col> -->
+			<!-- <Col>
+			<TechTalk
+				title="BEXIS2 - Forschungsdatenmanagement in Verbundprojekten"
+				url="https://www.youtube.com/embed/TtLm_1mf3LU?si=uS_dBWsoiLOhqIAN"
+			/>
+		</Col> -->
+
+</Row>
+
+	<h2>Deep Dives for Experts</h2>
 
 	<p>
-		The idea of this series of talks is to gather the knowledge needed to develop the BEXIS2 data
-		management platform. So the talks are geared towards software engineers and developers.
+		The videos about the BEXIS2 architecture are a bit older, but they still provide a great technical overview of the software.
 	</p>
 	<p>The talks are available from the Digital Library Thuringia and on Youtube:</p>
 

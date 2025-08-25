@@ -71,6 +71,10 @@
 		<!--<Cite {citeText} />-->
 		<i>{SOURCE}, {PLACE}, {DATE}</i>
 		<div class="abstract preview">{@html ABSTRACT}</div>
+		<b>{TYPE}</b>
+		{#if URL != ''}
+			: <a href={URL} target="blank">{NAME}</a>
+		{/if}
 	</div>
 {/if}
 
