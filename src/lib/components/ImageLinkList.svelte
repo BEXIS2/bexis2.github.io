@@ -2,10 +2,11 @@
 	import ImageLink from './ImageLink.svelte';
 	import { Row, Col } from 'sveltestrap';
 
-	export let title;
-	export let description;
+	export let title = "";
+	export let description = "";
 	export let list;
 </script>
+
 
 <h2>{title}</h2>
 <p>{description}</p>

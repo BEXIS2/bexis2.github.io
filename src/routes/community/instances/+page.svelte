@@ -15,10 +15,10 @@
 </script>
 
 <svelte:head>
-	<title>Partners & Instances</title>
+	<title>Instances</title>
 </svelte:head>
 
-<h1>Partners & Instances</h1>
+<h1>Instances</h1>
 
 <!--<ImageLinkList
 	title="BEXIS2 Partners"
@@ -32,4 +32,4 @@
 	list={projectsJson}
 />-->
 
-<ImageLinkList title="Instances" description="" list={instancesJson} />
+<ImageLinkList description="" list={instancesJson} />

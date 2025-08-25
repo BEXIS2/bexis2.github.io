@@ -78,21 +78,19 @@
 						<DropdownItem href={base + '/knowledgebase/requirements'}
 							>System Requirements</DropdownItem
 						>
-						<DropdownItem href={base + '/resources/manuals'}>Manuals</DropdownItem>
+						<!-- <DropdownItem href={base + '/resources/manuals'}>Manuals</DropdownItem> -->
+						<DropdownItem href={'https://demo.bexis2.uni-jena.de/home/docs/General#general'}>Manuals</DropdownItem>
 						<DropdownItem href={base + '/resources/techtalks'}>Tech Talks</DropdownItem>
 						<DropdownItem href={base + '/resources/publications'}>Publications</DropdownItem>
-						<!---<DropdownItem divider />
-						<DropdownItem href="https://fusion.cs.uni-jena.de/bppCM/index.htm" target="_blank"
-							>Conceptional Model</DropdownItem
-						>-->
+	
 					</DropdownMenu>
 				</Dropdown>
 
 				<Dropdown nav inNavbar>
 					<DropdownToggle nav caret>Community</DropdownToggle>
 					<DropdownMenu end>
-						<DropdownItem href={base + '/community/partnersAndInstances'}
-							>Partners & Instances</DropdownItem
+						<DropdownItem href={base + '/community/instances'}
+							>Instances</DropdownItem
 						>
 						<DropdownItem href={base + '/community/mailinglists'}>Mailing Lists</DropdownItem>
 						<DropdownItem href={base + '/community/news'}>News</DropdownItem>
