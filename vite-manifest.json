@@ -1,11 +1,11 @@
 {
   "node_modules/.pnpm/@sveltejs+kit@1.0.0-next.538_svelte@3.44.0_vite@3.2.11/node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-71600ebd.js",
+    "file": "_app/immutable/start-351d420d.js",
     "src": "node_modules/.pnpm/@sveltejs+kit@1.0.0-next.538_svelte@3.44.0_vite@3.2.11/node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_index-366e6caf.js",
-      "_singletons-eba51be0.js",
+      "_singletons-ccfd2610.js",
       "_paths-9373013e.js"
     ],
     "dynamicImports": [
@@ -50,12 +50,12 @@
     ]
   },
   "node_modules/.pnpm/@sveltejs+kit@1.0.0-next.538_svelte@3.44.0_vite@3.2.11/node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-e854ef54.js",
+    "file": "_app/immutable/components/error.svelte-cc5490d8.js",
     "src": "node_modules/.pnpm/@sveltejs+kit@1.0.0-next.538_svelte@3.44.0_vite@3.2.11/node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
       "_index-366e6caf.js",
-      "_singletons-eba51be0.js"
+      "_singletons-ccfd2610.js"
     ]
   },
   "src/routes/+page.svelte": {
@@ -200,7 +200,7 @@
     ]
   },
   "src/routes/resources/publications/+page.svelte": {
-    "file": "_app/immutable/components/pages/resources/publications/_page.svelte-2e013faa.js",
+    "file": "_app/immutable/components/pages/resources/publications/_page.svelte-4161ea8f.js",
     "src": "src/routes/resources/publications/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -211,7 +211,7 @@
     ]
   },
   "src/routes/resources/techtalks/+page.svelte": {
-    "file": "_app/immutable/components/pages/resources/techtalks/_page.svelte-cc2402d5.js",
+    "file": "_app/immutable/components/pages/resources/techtalks/_page.svelte-1d21c8a3.js",
     "src": "src/routes/resources/techtalks/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -329,8 +329,8 @@
       "__page-f0b87237.js"
     ]
   },
-  "_singletons-eba51be0.js": {
-    "file": "_app/immutable/chunks/singletons-eba51be0.js",
+  "_singletons-ccfd2610.js": {
+    "file": "_app/immutable/chunks/singletons-ccfd2610.js",
     "imports": [
       "_index-47282d3f.js",
       "_paths-9373013e.js"
@@ -438,7 +438,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-147c9439.js",
+    "file": "_app/immutable/chunks/1-cfb76826.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -561,7 +561,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/16.js": {
-    "file": "_app/immutable/chunks/16-555beafd.js",
+    "file": "_app/immutable/chunks/16-e38c174d.js",
     "src": ".svelte-kit/generated/nodes/16.js",
     "isDynamicEntry": true,
     "imports": [
@@ -570,7 +570,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/17.js": {
-    "file": "_app/immutable/chunks/17-d66cc354.js",
+    "file": "_app/immutable/chunks/17-811d8f23.js",
     "src": ".svelte-kit/generated/nodes/17.js",
     "isDynamicEntry": true,
     "imports": [
@@ -612,25 +612,25 @@
       "src/routes/software/releases/+page.svelte"
     ]
   },
-  "Offcanvas.css": {
-    "file": "_app/immutable/assets/Offcanvas-60614438.css",
-    "src": "Offcanvas.css"
-  },
   "Card.css": {
     "file": "_app/immutable/assets/Card-3b11c754.css",
     "src": "Card.css"
-  },
-  "src/routes/+page.css": {
-    "file": "_app/immutable/assets/_page-76de20ea.css",
-    "src": "src/routes/+page.css"
   },
   "src/routes/about/people/+page.css": {
     "file": "_app/immutable/assets/_page-e446ba6a.css",
     "src": "src/routes/about/people/+page.css"
   },
+  "src/routes/+page.css": {
+    "file": "_app/immutable/assets/_page-76de20ea.css",
+    "src": "src/routes/+page.css"
+  },
   "src/routes/software/milestones/+page.css": {
     "file": "_app/immutable/assets/_page-bb0efdd9.css",
     "src": "src/routes/software/milestones/+page.css"
+  },
+  "Offcanvas.css": {
+    "file": "_app/immutable/assets/Offcanvas-60614438.css",
+    "src": "Offcanvas.css"
   },
   "src/routes/resources/publications/+page.css": {
     "file": "_app/immutable/assets/_page-a1545d9f.css",
