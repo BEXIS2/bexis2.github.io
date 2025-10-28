@@ -1,5 +1,5 @@
 import bibtexParse from 'bibtex-parse';
-import bibData from '$lib/bibtext.bib?raw';
+import bibData from '$lib/bibtext-BEXIS2-pubs.bib?raw';
 //	export let bibsFiles;
 /** @type {import('./$types').PageLoad} */
 export async function load() {
