@@ -1,11 +1,11 @@
 {
   "node_modules/.pnpm/@sveltejs+kit@1.0.0-next.538_svelte@3.44.0_vite@3.2.11/node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-716f2005.js",
+    "file": "_app/immutable/start-f6a1c5ec.js",
     "src": "node_modules/.pnpm/@sveltejs+kit@1.0.0-next.538_svelte@3.44.0_vite@3.2.11/node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_index-366e6caf.js",
-      "_singletons-e094ccf1.js",
+      "_singletons-4b6fcd2e.js",
       "_paths-9373013e.js"
     ],
     "dynamicImports": [
@@ -50,12 +50,12 @@
     ]
   },
   "node_modules/.pnpm/@sveltejs+kit@1.0.0-next.538_svelte@3.44.0_vite@3.2.11/node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-584cd019.js",
+    "file": "_app/immutable/components/error.svelte-8958055e.js",
     "src": "node_modules/.pnpm/@sveltejs+kit@1.0.0-next.538_svelte@3.44.0_vite@3.2.11/node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
       "_index-366e6caf.js",
-      "_singletons-e094ccf1.js"
+      "_singletons-4b6fcd2e.js"
     ]
   },
   "src/routes/+page.svelte": {
@@ -298,11 +298,11 @@
     ]
   },
   "src/routes/resources/publications/+page.js": {
-    "file": "_app/immutable/modules/pages/resources/publications/_page.js-8f8451d8.js",
+    "file": "_app/immutable/modules/pages/resources/publications/_page.js-0ec37e80.js",
     "src": "src/routes/resources/publications/+page.js",
     "isEntry": true,
     "imports": [
-      "__page-441f16f3.js"
+      "__page-589f90b4.js"
     ]
   },
   "src/routes/software/milestones/+page.js": {
@@ -329,8 +329,8 @@
       "__page-f0b87237.js"
     ]
   },
-  "_singletons-e094ccf1.js": {
-    "file": "_app/immutable/chunks/singletons-e094ccf1.js",
+  "_singletons-4b6fcd2e.js": {
+    "file": "_app/immutable/chunks/singletons-4b6fcd2e.js",
     "imports": [
       "_index-47282d3f.js",
       "_paths-9373013e.js"
@@ -416,8 +416,8 @@
   "__page-be638de9.js": {
     "file": "_app/immutable/chunks/_page-be638de9.js"
   },
-  "__page-441f16f3.js": {
-    "file": "_app/immutable/chunks/_page-441f16f3.js"
+  "__page-589f90b4.js": {
+    "file": "_app/immutable/chunks/_page-589f90b4.js"
   },
   "__page-39016ac1.js": {
     "file": "_app/immutable/chunks/_page-39016ac1.js"
@@ -438,7 +438,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-938adfab.js",
+    "file": "_app/immutable/chunks/1-f1a399fa.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -561,11 +561,11 @@
     ]
   },
   ".svelte-kit/generated/nodes/16.js": {
-    "file": "_app/immutable/chunks/16-e38c174d.js",
+    "file": "_app/immutable/chunks/16-7e17084d.js",
     "src": ".svelte-kit/generated/nodes/16.js",
     "isDynamicEntry": true,
     "imports": [
-      "__page-441f16f3.js",
+      "__page-589f90b4.js",
       "src/routes/resources/publications/+page.svelte"
     ]
   },
@@ -612,25 +612,25 @@
       "src/routes/software/releases/+page.svelte"
     ]
   },
+  "src/routes/about/people/+page.css": {
+    "file": "_app/immutable/assets/_page-e446ba6a.css",
+    "src": "src/routes/about/people/+page.css"
+  },
   "src/routes/+page.css": {
     "file": "_app/immutable/assets/_page-76de20ea.css",
     "src": "src/routes/+page.css"
   },
-  "Offcanvas.css": {
-    "file": "_app/immutable/assets/Offcanvas-60614438.css",
-    "src": "Offcanvas.css"
-  },
-  "src/routes/about/people/+page.css": {
-    "file": "_app/immutable/assets/_page-e446ba6a.css",
-    "src": "src/routes/about/people/+page.css"
+  "src/routes/software/milestones/+page.css": {
+    "file": "_app/immutable/assets/_page-bb0efdd9.css",
+    "src": "src/routes/software/milestones/+page.css"
   },
   "Card.css": {
     "file": "_app/immutable/assets/Card-3b11c754.css",
     "src": "Card.css"
   },
-  "src/routes/software/milestones/+page.css": {
-    "file": "_app/immutable/assets/_page-bb0efdd9.css",
-    "src": "src/routes/software/milestones/+page.css"
+  "Offcanvas.css": {
+    "file": "_app/immutable/assets/Offcanvas-60614438.css",
+    "src": "Offcanvas.css"
   },
   "src/routes/resources/publications/+page.css": {
     "file": "_app/immutable/assets/_page-a1545d9f.css",
