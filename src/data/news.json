@@ -222,4 +222,5 @@
 		"author": "Franziska Zander",
 		"date": "2026/01/09",
 		"content": "<p>This release contains mainly performance and loading improvements, but also several smaller bugfixes.</p><p>Please take a look <a href=\"https://bexis2.github.io/software/releases#4.2.1\">here</a> for more details.</p>"
-	},
+	}
+]
