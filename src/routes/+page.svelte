@@ -50,6 +50,8 @@
 			{:else}
 				<p>Nothing to show...</p>
 			{/if}
+			<br />
+			<a href="{base}/community/news">See all news...</a>
 		</Card>
 	</Col>
 </Row>
