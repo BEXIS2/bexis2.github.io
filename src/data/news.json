@@ -208,5 +208,18 @@
 		"author": "David Schöne",
 		"date": "2025/07/19",
 		"content": "<p>At the recent FDM-Tage 2025, Cornelia Fürstenau (Data Manager, Biodiversity Exploratories) and David Schöne (BEXIS2 Developer) gave a joint presentation titled <b>\"Bridging Data and People: BEXIS2 Through Two Lenses.\"</b></p><p>They offered a unique perspective on the BEXIS2 research data management system, showing its functions from two different angles: the end-user and the data manager. This combined approach highlighted how the software effectively addresses the needs of various user groups.</p><p>The presentation is available <a href=\"https://www.youtube.com/watch?v=iYxLBBrwduk&t=350s\">here</a>."
-	}
-]
+	},	
+	{
+		"id": 27,
+		"title": "BEXIS2 Release - 4.2.0",
+		"author": "Franziska Zander",
+		"date": "2025/12/09",
+		"content": "<p>This version holds several UX/UI improvements, bugfixes and enhancements related to dataset creation and upload and a revised download. For example single file downloads without metadata are no longer allowed without edit permissions. The content of the download archive also have been extended und refactored. During creation you can now also enable to check if required DWC terms are assigned (show as warning). Further our new integrated curation tool has been added for testing.</p><p>Please take a look <a href=\"https://bexis2.github.io/software/releases#4.2.0\">here</a> for more details.</p>"
+	},	
+	{
+		"id": 28,
+		"title": "BEXIS2 Release - 4.2.1",
+		"author": "Franziska Zander",
+		"date": "2026/01/09",
+		"content": "<p>This release contains mainly performance and loading improvements, but also several smaller bugfixes.</p><p>Please take a look <a href=\"https://bexis2.github.io/software/releases#4.2.1\">here</a> for more details.</p>"
+	},
