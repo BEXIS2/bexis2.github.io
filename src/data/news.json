@@ -222,5 +222,27 @@
 		"author": "Franziska Zander",
 		"date": "2026/01/09",
 		"content": "<p>This release contains mainly performance and loading improvements, but also several smaller bugfixes.</p><p>Please take a look <a href=\"https://bexis2.github.io/software/releases#4.2.1\">here</a> for more details.</p>"
+	},
+	{
+		"id": 29,
+		"title": "BEXIS2 Release - 4.3.0",
+		"author": "Franziska Zander",
+		"date": "2026/04/28",
+		"content": "<p>This release contains security updates and a very long list of enhancements and bugfixes across BEXIS2.</p><p>Please take a look <a href=\"https://bexis2.github.io/software/releases#4.3.0\">here</a> for more details.</p>"
+	},
+	{
+		"id": 30,
+		"title": "BEXIS2 Release - 4.3.1",
+		"author": "Franziska Zander",
+		"date": "2026/05/19",
+		"content": "<p>This release includes minor bug fixes related to dataset copying, downloading, and settings.</p><p>Please take a look <a href=\"https://bexis2.github.io/software/releases#4.3.1\">here</a> for more details.</p>"
+	},
+	{
+		"id": 31,
+		"title": "BEXIS2 Release - 5.0.0",
+		"author": "Franziska Zander",
+		"date": "2026/10/09",
+		"content": "<p>Within this release we continued the refactoring of the UI to Svelte. The main focus was on the metadata edit and view, the dataset details, the primary data view, the dashboard / my data page, the users and groups management and the file display module. Further we added a new feature to support entity extensions. This is for example needed for DWC datasets. In addition, we added a new tool as a prerelease to collect feedback on mapping species against an API (e.g., ChecklistBank) using the BEXIS2 stored datasets For data curators we added a new tool to compare metadata versions or metadata across different datasets. Further we added a new admin feature which allows configuring UI components for view and edit in a graphical interface. This is for example needed to configure the layout and form elements of the new metadata edit form and view. Finally we integrated and improved the citation API and the citation generation for datasets as well as the download functionality for datasets. In addition we improved the performance of the system and fixed several bugs.</p><p>Please take a look <a href=\"https://bexis2.github.io/software/releases#5.0.0\">here</a> for more details.</p>"
 	}
+
 ]
