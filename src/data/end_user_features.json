@@ -10,6 +10,11 @@
 		"icon": "file_upload_FILL0_wght400_GRAD0_opsz48.svg"
 	},
 	{
+		"title": "Support Entity Extensions",
+		"description": "Extend the functionality of BEXIS2 by adding custom entities and their relationships e.g., to support the creation of DWC (Darwin Core) datasets.",
+		"icon": "extension_FILL0_wght400_GRAD0_opsz48.svg"
+	},
+	{
 		"title": "Web API Access",
 		"description": "Beside downloading a dataset from the portal, you may also retrieve data stored in BEXIS2 directly with a script or from your application (e.g. R) using API calls.",
 		"icon": "api_FILL0_wght400_GRAD0_opsz48.svg"
@@ -20,13 +25,18 @@
 		"icon": "visibility_off_FILL0_wght400_GRAD0_opsz48.svg"
 	},
 	{
+		"title": "Data Citation",
+		"description": "Cite your dataset in a standard way and export the citation in BibTeX format.",
+		"icon": "format_quote_FILL0_wght400_GRAD0_opsz48.svg"
+	},
+	{
 		"title": "Re-use Data Structures",
 		"description": "Design your dataset by specifying its data structure, variables, meanings, units and constraints only once in BEXIS2 and re-use them for any dataset.",
 		"icon": "repeat_FILL0_wght400_GRAD0_opsz48.svg"
 	},
 	{
 		"title": "Dataset Versioning",
-		"description": "Keep track of the evolution of your dataset (i.e. who did what and when) and return to any previous version if needed.",
+		"description": "Keep track of the evolution of your dataset (i.e. who did what and when) and return to any previous version if needed. Create release tags for your dataset to make it citable.",
 		"icon": "bookmarks_FILL0_wght400_GRAD0_opsz48.svg"
 	},
 	{
@@ -43,5 +53,10 @@
 		"title": "DOI Workflow",
 		"description": "Integration of the DOI workflow, which allows issuing DOIs at DataCite for your datasets (your institutional account is required)",
 		"icon": "doi.svg"
+	},
+	{
+		"title": "Species Mapping Tool",
+		"description": "Species Mapping against an API (e.g. ChecklistBank) based on in BEXIS2 stored datasets.",
+		"icon": "species_mapping_FILL0_wght400_GRAD0_opsz48.svg"
 	}
 ]

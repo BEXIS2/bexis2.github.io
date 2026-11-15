@@ -10,6 +10,16 @@
 		"icon": "schema_FILL0_wght400_GRAD0_opsz48.svg"
 	},
 	{
+		"title": "Curation Support Tools",
+		"description": "Tools to support data curators in their work, e.g. to check the changes and compare metadata. Create curation tasks for users and assign them to specific datasets and communicate with them via the system.",
+		"icon": "curation_tools_FILL0_wght400_GRAD0_opsz48.svg"
+	},
+	{
+		"title": "UI Component Configuration",
+		"description": "Configure the UI components for view and edit of metadata in a graphical interface. Example components e.g., are the integration of a Terminology Service, default values, date range, horizontal alignment, ORCID, ROR, text area, link view.",
+		"icon": "widgets_FILL0_wght400_GRAD0_opsz48.svg"
+	},
+	{
 		"title": "Notification Framework",
 		"description": "BEXIS2 comes with a notification framework to send out custom messages (e.g. via email) to users on specific actions.",
 		"icon": "mail_FILL0_wght400_GRAD0_opsz48.svg"
